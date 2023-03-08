@@ -1,2 +1,2 @@
-# final_proyect
-IronHack Final Proyect
+# final_project
+IronHack Final Project
