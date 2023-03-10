@@ -125,7 +125,7 @@ def get_subcategories(zip, category):
 
     return ret_list
 
-def get_product_info(zip, category, subcategory, headless=True):
+def get_product_info(zip, category, subcategory, headless=False):
     """
     Get product information from the Mercadona website for a given zip code, category and subcategory.
     Returns a pandas DataFrame with a row per each product scraped and the total amount of products scraped.
@@ -274,3 +274,50 @@ def get_product_info(zip, category, subcategory, headless=True):
     driver.quit()
     
     return ret_df,product_count
+
+def mercadona_full_scraper(cod_postal,retry=4, wait_min=0.3, wait_max=0.5, e_wait_min=3, e_wait_max=5, headless=False):
+    start_time=time.time()
+    print(f"\rGetting categories...                                                      ", end='')
+    sys.stdout.flush()
+    categories = get_categories(cod_postal)
+
+    product_info = pd.DataFrame({})
+    error_count = 0
+    missing_subcats = []
+
+    for i in categories:
+        print(f'\rGetting subcategories for the "{i}" category...                                                      ', end='')
+        sys.stdout.flush()
+        subcategories = get_subcategories(cod_postal, i)
+        for x in subcategories:
+            print(f'\rGetting products for the "{x}" subcategory in the "{i}" category...                                                ')
+            sys.stdout.flush()
+            
+            retries = retry
+            while retries > 0:
+                try:
+                    products, product_count =  get_product_info(cod_postal, i, x, headless=headless)
+                    product_info = pd.concat([product_info,products], ignore_index=True)
+                    random_time = random.randint((wait_min*60*1000), (wait_max*60*1000)) /1000
+                    print(f"\n---------------\nTime:{round((time.time()-start_time)/60,2)}\nFinished '{x}' subcateogry succesfully. \n{product_count} products registered.\nWaiting {round(random_time/60,2)} minutes so that we don't get caught...\nCurrent size of data captured: {product_info.shape}\n---------------\n")
+                    time.sleep(random_time)
+                    break
+
+                except:
+                    print(f'\n\nTime: {round((time.time()-start_time)/60,2)}')
+                    random_time = random.randint((((e_wait_min*60)+(error_count*10))*1000), (((e_wait_max*60)+(error_count*10))*1000)) /1000
+                    error_count +=1
+                    if retries == 1:
+                        print(f'!!! An error occurred in subcategory "{x}"... Again... Adding it to the list of missing subcategories...\n')
+                        missed_subcat={}
+                        missed_subcat["category"]=i
+                        missed_subcat["subcategory"]=x
+                        missing_subcats.append(missed_subcat)
+                        break
+                    retries -=1
+                    print(f'!!! An error occurred in subcategory "{x}". Retrying in {round(random_time/60,2)} minutes...\n')
+                    time.sleep(random_time)
+    
+    mising_subcategories = pd.DataFrame(missing_subcats)
+
+    return product_info, mising_subcategories
