@@ -275,8 +275,10 @@ def get_product_info(zip, category, subcategory, headless=False):
     
     return ret_df,product_count
 
-def mercadona_full_scraper(cod_postal,retry=4, wait_min=0.3, wait_max=0.5, e_wait_min=3, e_wait_max=5, headless=False):
+def mercadona_full_scraper(cod_postal,retry=4, wait_min=0.3, wait_max=0.5, e_wait_min=3, e_wait_max=5, max_error_wait = 5, headless=False):
     start_time=time.time()
+    timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+    session_name = f"Mercadona Scraping {timestamp}"
     print(f"\rGetting categories...                                                      ", end='')
     sys.stdout.flush()
     categories = get_categories(cod_postal)
@@ -298,7 +300,10 @@ def mercadona_full_scraper(cod_postal,retry=4, wait_min=0.3, wait_max=0.5, e_wai
                 try:
                     products, product_count =  get_product_info(cod_postal, i, x, headless=headless)
                     product_info = pd.concat([product_info,products], ignore_index=True)
+                    product_info.to_csv(session_name, index=False, mode='w', sep='~')
                     random_time = random.randint((wait_min*60*1000), (wait_max*60*1000)) /1000
+                    if random_time > max_error_wait*60:
+                        random_time = random.randint((((max_error_wait*60)-30)*1000), (((max_error_wait*60)+30)*1000)) /1000
                     print(f"\n---------------\nTime:{round((time.time()-start_time)/60,2)}\nFinished '{x}' subcateogry succesfully. \n{product_count} products registered.\nWaiting {round(random_time/60,2)} minutes so that we don't get caught...\nCurrent size of data captured: {product_info.shape}\n---------------\n")
                     time.sleep(random_time)
                     break
@@ -306,13 +311,16 @@ def mercadona_full_scraper(cod_postal,retry=4, wait_min=0.3, wait_max=0.5, e_wai
                 except:
                     print(f'\n\nTime: {round((time.time()-start_time)/60,2)}')
                     random_time = random.randint((((e_wait_min*60)+(error_count*10))*1000), (((e_wait_max*60)+(error_count*10))*1000)) /1000
+                    if random_time > max_error_wait*60:
+                        random_time = random.randint((((max_error_wait*60)-30)*1000), (((max_error_wait*60)+30)*1000)) /1000
                     error_count +=1
                     if retries == 1:
-                        print(f'!!! An error occurred in subcategory "{x}"... Again... Adding it to the list of missing subcategories...\n')
+                        print(f"!!! An error occurred in subcategory '{x}'... Again... Adding it to the list of missing subcategories...\Waiting {round(random_time/60,2)} minutes so that we don't get caught... ")
                         missed_subcat={}
                         missed_subcat["category"]=i
                         missed_subcat["subcategory"]=x
                         missing_subcats.append(missed_subcat)
+                        time.sleep(random_time)
                         break
                     retries -=1
                     print(f'!!! An error occurred in subcategory "{x}". Retrying in {round(random_time/60,2)} minutes...\n')
