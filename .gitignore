@@ -134,5 +134,5 @@ dmypy.json
 **/__pycache__
 .vscode
 
-/drafts
-/mercadona/order_history/old_files
+drafts
+mercadona/order_history/old_files
