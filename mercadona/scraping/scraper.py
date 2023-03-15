@@ -29,7 +29,7 @@ load_dotenv()
 
 # Functions
 
-def get_categories(zip):
+def get_categories(zip, headless=False):
     """
     Get a list of all the categories available in Mercadona website based on the input postal code.
 
@@ -47,7 +47,9 @@ def get_categories(zip):
 
     # Set options for headless (invisible) browsing
     options = Options()
-    options.add_argument('--headless')
+    # add the headless argument if passed
+    if headless:
+        options.add_argument('--headless')
 
     # Start the driver with the options
     driver = webdriver.Chrome(options=options)
@@ -80,7 +82,7 @@ def get_categories(zip):
 
     return ret_list
 
-def get_subcategories(zip, category):
+def get_subcategories(zip, category, headless=True):
     """
     Retrieve the subcategories of a given category in the Mercadona website for a given postal code.
 
@@ -94,7 +96,10 @@ def get_subcategories(zip, category):
     
     # Set options for headless (invisible) browsing
     options = Options()
-    options.add_argument('--headless')
+
+    # add the headless argument if passed
+    if headless:
+        options.add_argument('--headless')
 
     # Start the driver with the options
     driver = webdriver.Chrome(options=options)
@@ -125,7 +130,7 @@ def get_subcategories(zip, category):
 
     return ret_list
 
-def get_product_info(zip, category, subcategory, headless=False):
+def get_product_info(zip, category, subcategory, wait=0, headless=False):
     """
     Get product information from the Mercadona website for a given zip code, category and subcategory.
     Returns a pandas DataFrame with a row per each product scraped and the total amount of products scraped.
@@ -215,7 +220,7 @@ def get_product_info(zip, category, subcategory, headless=False):
             info_prod["product_volume"] = "Not available"
         # Price per unit (€ / L)
         try:
-            info_prod["product_price_per_unit"] = driver.find_element(By.CSS_SELECTOR, 'span.headline1-r:nth-child(3)').text
+            info_prod["product_price_per_unit"] = driver.find_element(By.CSS_SELECTOR, 'span.headline1-r:nth-child(3)').text.replace("| ","")
         except:
             info_prod["product_price_per_unit"] = "Not available"
         # Product_price
@@ -225,12 +230,12 @@ def get_product_info(zip, category, subcategory, headless=False):
             info_prod["product_price"] = "Not Available"
         # Product unit (e.g.: L)
         try:
-            info_prod["product_unit"] = driver.find_element(By.CSS_SELECTOR, 'p.product-price__extra-price.title1-r').text
+            info_prod["product_unit"] = driver.find_element(By.CSS_SELECTOR, 'p.product-price__extra-price.title1-r').text.replace("/","").replace(".","")
         except:
             info_prod["product_unit"] = "Not Available"
         # Product category
         try:
-            info_prod["product_category"] = driver.find_element(By.CSS_SELECTOR, 'span.subhead1-r').text
+            info_prod["product_category"] = driver.find_element(By.CSS_SELECTOR, 'span.subhead1-r').text.replace(" >","")
         except:
             info_prod["product_category"] = "Not Available"
         # Product Subcategory
@@ -247,10 +252,14 @@ def get_product_info(zip, category, subcategory, headless=False):
         list_of_dicts.append(info_prod)
         product_count += 1
         
+        time.sleep(wait/2)
+
         # Send the 'esc' key and the back command to exit the product info page. Does it until we are moved back to the product grid (URL contains "categories")
         while "categories" not in driver.current_url:
             driver.back()
             driver.find_element(By.CSS_SELECTOR, "body").send_keys(Keys.ESCAPE)
+        
+        time.sleep(wait/2)
 
         # Click on the next "product-cell" element, if available
         if i < len(product_cells) - 1:
@@ -275,13 +284,13 @@ def get_product_info(zip, category, subcategory, headless=False):
     
     return ret_df,product_count
 
-def mercadona_full_scraper(cod_postal,retry=4, wait_min=0.3, wait_max=0.5, e_wait_min=3, e_wait_max=5, max_error_wait = 5, headless=False):
+def mercadona_full_scraper(cod_postal,retry=4, wait_min=0.3, wait_max=0.5, e_wait_min=3, e_wait_max=5, max_error_wait = 5, prod_wait=0, headless=False):
     start_time=time.time()
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     session_name = f"Mercadona Scraping {timestamp}"
     print(f"\rGetting categories...                                                      ", end='')
     sys.stdout.flush()
-    categories = get_categories(cod_postal)
+    categories = get_categories(cod_postal, headless=headless)
 
     product_info = pd.DataFrame({})
     error_count = 0
@@ -290,7 +299,7 @@ def mercadona_full_scraper(cod_postal,retry=4, wait_min=0.3, wait_max=0.5, e_wai
     for i in categories:
         print(f'\rGetting subcategories for the "{i}" category...                                                      ', end='')
         sys.stdout.flush()
-        subcategories = get_subcategories(cod_postal, i)
+        subcategories = get_subcategories(cod_postal, i, headless=headless)
         for x in subcategories:
             print(f'\rGetting products for the "{x}" subcategory in the "{i}" category...                                                ')
             sys.stdout.flush()
@@ -298,9 +307,9 @@ def mercadona_full_scraper(cod_postal,retry=4, wait_min=0.3, wait_max=0.5, e_wai
             retries = retry
             while retries > 0:
                 try:
-                    products, product_count =  get_product_info(cod_postal, i, x, headless=headless)
+                    products, product_count =  get_product_info(cod_postal, i, x, wait=prod_wait, headless=headless)
                     product_info = pd.concat([product_info,products], ignore_index=True)
-                    product_info.to_csv(session_name, index=False, mode='w', sep='~')
+                    product_info.to_csv(f'scraping_output/{session_name}.csv', index=False, mode='w', sep='~')
                     random_time = random.randint((wait_min*60*1000), (wait_max*60*1000)) /1000
                     if random_time > max_error_wait*60:
                         random_time = random.randint((((max_error_wait*60)-30)*1000), (((max_error_wait*60)+30)*1000)) /1000
