@@ -1,0 +1,862 @@
+~product~units~price~order_number~fecha~product_code~price_per_unit
+0~Tomate pera~2~0.6~13996475~2023-03-18~69912~0.3
+1~Hummus de garbanzos Hacendado con pimiento del piquillo asado~1~1.45~13996475~2023-03-18~80862~1.45
+2~Acondicionador Repara & Protege Pantene~1~3.8~13996475~2023-03-18~35615~3.8
+3~Palitos de zanahoria~1~1.78~13996475~2023-03-18~69877~1.78
+4~Fajitas pollo y verduras~3~11.97~13996475~2023-03-18~4284~3.99
+5~Detergente ropa All in 1 Ariel Pods en cápsulas~1~8.8~13996475~2023-03-18~16806~8.8
+6~Arándanos~1~2.78~13996475~2023-03-18~5501~2.78
+7~Barquillos con crema de avellanas Hacendado~1~1.5~13996475~2023-03-18~14241~1.5
+8~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.95~13996475~2023-03-18~60956~1.95
+9~Espárrago verde grueso~1~3.26~13996475~2023-03-18~69643~3.26
+10~Banana~3~0.75~13996475~2023-03-18~3824~0.25
+11~Huevos grandes L~3~12.15~13996475~2023-03-18~31003~4.05
+12~Huevos grandes L~3~12.15~13996475~2023-03-18~31003~4.05
+13~Huevos grandes L~3~12.15~13996475~2023-03-18~31003~4.05
+14~Aguacates~1~2.41~13996475~2023-03-18~3858~2.41
+15~Salsa de tomate, albahaca y orégano Hacendado~1~1.2~13945376~2023-03-11~17283~1.2
+16~Tomate pera~2~0.6~13945376~2023-03-11~69912~0.3
+17~Atún en aceite de girasol Hacendado~2~13.6~13945376~2023-03-11~18086~6.8
+18~Café molido natural Hacendado~1~3.2~13945376~2023-03-11~11178~3.2
+19~Café molido natural Hacendado~1~3.2~13945376~2023-03-11~11172~3.2
+20~Hummus de garbanzos Hacendado con pimiento del piquillo asado~1~1.45~13945376~2023-03-11~80862~1.45
+21~Chili con carne Hacendado~1~2.6~13945376~2023-03-11~23137~2.6
+22~Acondicionador Repara & Protege Pantene~1~3.8~13945376~2023-03-11~35615~3.8
+23~Palitos de zanahoria~1~1.78~13945376~2023-03-11~69877~1.78
+24~Fajitas pollo y verduras~2~7.98~13945376~2023-03-11~4284~3.99
+25~Detergente ropa All in 1 Ariel Pods en cápsulas~1~8.8~13945376~2023-03-11~16806~8.8
+26~Champú Anticaída Deliplus~1~1.95~13945376~2023-03-11~44356~1.95
+27~Arándanos~1~2.78~13945376~2023-03-11~5501~2.78
+28~Refresco Coca-Cola Zero Zero~1~9.12~13945376~2023-03-11~26997~9.12
+29~Refresco Coca-Cola Zero Zero~1~9.12~13945376~2023-03-11~26997~9.12
+30~Refresco Coca-Cola Zero Zero~1~9.12~13945376~2023-03-11~26997~9.12
+31~Refresco Coca-Cola Zero Zero~1~9.12~13945376~2023-03-11~26997~9.12
+32~Barquillos con crema de avellanas Hacendado~1~1.5~13945376~2023-03-11~14241~1.5
+33~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.95~13945376~2023-03-11~60956~1.95
+34~Espárrago verde grueso~1~3.26~13945376~2023-03-11~69643~3.26
+35~Banana~3~0.79~13945376~2023-03-11~3824~0.26333333333333336
+36~Huevos grandes L~1~4.05~13945376~2023-03-11~31003~4.05
+37~Huevos grandes L~1~4.05~13945376~2023-03-11~31003~4.05
+38~Huevos grandes L~1~4.05~13945376~2023-03-11~31003~4.05
+39~Aguacates~1~3.08~13945376~2023-03-11~3858~3.08
+40~Chili con carne Hacendado~1~2.6~13879881~2023-03-04~23137~2.6
+41~Fajitas pollo y verduras~2~7.98~13879881~2023-03-04~4284~3.99
+42~Maxi tortillas de trigo Hacendado~1~1.6~13879881~2023-03-04~80870~1.6
+43~Desodorante invisible Black & White Nivea Men~1~2.75~13879881~2023-03-04~22124~2.75
+44~Ambientador spray Ropa Limpia Bosque Verde~1~1.3~13879881~2023-03-04~72537~1.3
+45~Hierbas provenzales Hacendado~1~1.1~13879881~2023-03-04~34131~1.1
+46~Refresco Coca-Cola Zero Zero~1~9.12~13879881~2023-03-04~26997~9.12
+47~Refresco Coca-Cola Zero Zero~1~9.12~13879881~2023-03-04~26997~9.12
+48~Refresco Coca-Cola Zero Zero~1~9.12~13879881~2023-03-04~26997~9.12
+49~Refresco Coca-Cola Zero Zero~1~9.12~13879881~2023-03-04~26997~9.12
+50~Aceite de oliva virgen extra Hacendado~1~2.34~13879881~2023-03-04~4718~2.34
+51~Aceite de oliva virgen extra Hacendado~1~2.34~13879881~2023-03-04~4718~2.34
+52~Aceite de oliva virgen extra Hacendado~1~2.34~13879881~2023-03-04~4718~2.34
+53~Edulcorante en sobres stevia Hacendado~1~2.0~13879881~2023-03-04~19825~2.0
+54~Batata~2~1.91~13879881~2023-03-04~69239~0.955
+55~Patatas~1~4.23~13879881~2023-03-04~69166~4.23
+56~Patatas~1~4.23~13879881~2023-03-04~69099~4.23
+57~Mantequilla con sal Hacendado~1~2.1~13879881~2023-03-04~20727~2.1
+58~Mantequilla con sal Hacendado~1~2.1~13879881~2023-03-04~20727~2.1
+59~Salsa de tomate, albahaca y orégano Hacendado~1~1.2~13879881~2023-03-04~17283~1.2
+60~Arroz largo Hacendado~1~1.3~13879881~2023-03-04~5063~1.3
+61~Pan de molde 100% integral Hacendado~1~0.95~13879881~2023-03-04~82328~0.95
+62~Bebida de almendras zero Hacendado~1~1.45~13879881~2023-03-04~23926~1.45
+63~Dentífrico Protección Caries Colgate~1~1.85~13879881~2023-03-04~73979~1.85
+64~Judía verde redonda~1~2.2~13879881~2023-03-04~69878~2.2
+65~Barquillos con crema de avellanas Hacendado~1~1.5~13879881~2023-03-04~14241~1.5
+66~Preparado de carne picada vacuno~1~7.45~13879881~2023-03-04~3454~7.45
+67~Preparado de carne picada vacuno~1~7.45~13879881~2023-03-04~3454~7.45
+68~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.95~13879881~2023-03-04~60956~1.95
+69~Espárrago verde grueso~1~3.26~13879881~2023-03-04~69643~3.26
+70~Banana~5~1.42~13879881~2023-03-04~3824~0.284
+71~Ensalada mezcla brotes tiernos maxi~1~1.68~13879881~2023-03-04~69810~1.68
+72~Huevos grandes L~2~8.1~13879881~2023-03-04~31003~4.05
+73~Huevos grandes L~2~8.1~13879881~2023-03-04~31003~4.05
+74~Huevos grandes L~2~8.1~13879881~2023-03-04~31003~4.05
+75~Pechugas enteras de pollo~1~6.77~13879881~2023-03-04~3682~6.77
+76~Pechugas enteras de pollo~1~6.77~13879881~2023-03-04~3682~6.77
+77~Medallones pechuga de pollo marinado~1~3.98~13879881~2023-03-04~2831~3.98
+78~Aguacates~1~2.91~13879881~2023-03-04~3858~2.91
+79~Salsa césar Hacendado~1~1.4~13821013~2023-02-25~17366~1.4
+80~Mostaza clásica Hacendado~1~1.25~13821013~2023-02-25~23410~1.25
+81~Toallitas limpiadoras desengrasantes de Cocina Bosque Verde~1~1.3~13821013~2023-02-25~43935~1.3
+82~Servilleta papel Bosque Verde~1~1.4~13821013~2023-02-25~49544~1.4
+83~Queso de cabra Président en medallones~1~3.32~13821013~2023-02-25~51149~3.32
+84~Pan de molde 100% integral Hacendado~1~0.95~13821013~2023-02-25~82328~0.95
+85~Jabón de manos Beauty Cream Bar Dove pastilla~1~2.6~13821013~2023-02-25~67908~2.6
+86~Bebida de almendras zero Hacendado~1~1.45~13821013~2023-02-25~23926~1.45
+87~Dentífrico Protección Caries Colgate~1~1.85~13821013~2023-02-25~73979~1.85
+88~Salteado de setas Hacendado ultracongeladas~1~1.73~13821013~2023-02-25~61025~1.73
+89~Pimiento rojo y verde Hacendado ultracongelado~1~1.06~13821013~2023-02-25~35221~1.06
+90~Espárrago verde troceado Hacendado ultracongelado~1~2.4~13821013~2023-02-25~61238~2.4
+91~Sazonador pollo y carne Hacendado~1~1.5~13821013~2023-02-25~37408~1.5
+92~Pimentón picante Hacendado~1~1.35~13821013~2023-02-25~34183~1.35
+93~Judía verde redonda~1~2.2~13821013~2023-02-25~69878~2.2
+94~Barquillos con crema de avellanas Hacendado~1~1.5~13821013~2023-02-25~14241~1.5
+95~Arándanos~1~2.78~13821013~2023-02-25~5501~2.78
+96~Preparado de carne picada vacuno~1~7.45~13821013~2023-02-25~3454~7.45
+97~Preparado de carne picada vacuno~1~7.45~13821013~2023-02-25~3454~7.45
+98~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.95~13821013~2023-02-25~60956~1.95
+99~Espárrago verde grueso~1~3.26~13821013~2023-02-25~69643~3.26
+100~Banana~5~1.24~13821013~2023-02-25~3824~0.248
+101~Ensalada mezcla brotes tiernos maxi~1~1.68~13821013~2023-02-25~69810~1.68
+102~Huevos grandes L~2~8.1~13821013~2023-02-25~31003~4.05
+103~Huevos grandes L~2~8.1~13821013~2023-02-25~31003~4.05
+104~Huevos grandes L~2~8.1~13821013~2023-02-25~31003~4.05
+105~Aguacates~1~2.77~13821013~2023-02-25~3858~2.77
+106~Pechugas enteras de pollo~1~6.07~13821013~2023-02-25~3682~6.07
+107~Pechugas enteras de pollo~1~6.07~13821013~2023-02-25~3682~6.07
+108~Medallones pechuga de pollo marinado~1~3.39~13821013~2023-02-25~2831~3.39
+109~Judía verde redonda~1~2.2~13759447~2023-02-18~69878~2.2
+110~Barquillos con crema de avellanas Hacendado~1~1.5~13759447~2023-02-18~14241~1.5
+111~Arándanos~1~2.78~13759447~2023-02-18~5501~2.78
+112~Pechuga de pavo bajo en sal Hacendado finas lonchas~1~3.37~13759447~2023-02-18~59252~3.37
+113~Pechuga de pavo bajo en sal Hacendado finas lonchas~1~3.37~13759447~2023-02-18~59252~3.37
+114~Palitos de zanahoria~1~1.78~13759447~2023-02-18~69877~1.78
+115~Papel higiénico húmedo WC Bosque Verde~1~1.55~13759447~2023-02-18~47291~1.55
+116~Cebolla troceada Hacendado ultracongelada~1~0.96~13759447~2023-02-18~13568~0.96
+117~Leche desnatada sin lactosa Hacendado~2~1.94~13759447~2023-02-18~10731~0.97
+118~Leche desnatada sin lactosa Hacendado~2~1.94~13759447~2023-02-18~10731~0.97
+119~Preparado de carne picada vacuno~1~7.45~13759447~2023-02-18~3454~7.45
+120~Preparado de carne picada vacuno~1~7.45~13759447~2023-02-18~3454~7.45
+121~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.95~13759447~2023-02-18~60956~1.95
+122~Espárrago verde grueso~1~3.26~13759447~2023-02-18~69643~3.26
+123~Banana~5~1.32~13759447~2023-02-18~3824~0.264
+124~Ensalada mezcla brotes tiernos maxi~1~1.68~13759447~2023-02-18~69810~1.68
+125~Huevos grandes L~1~4.05~13759447~2023-02-18~31003~4.05
+126~Huevos grandes L~1~4.05~13759447~2023-02-18~31003~4.05
+127~Huevos grandes L~1~4.05~13759447~2023-02-18~31003~4.05
+128~Aguacates~1~2.63~13759447~2023-02-18~3858~2.63
+129~Pechugas enteras de pollo~1~7.67~13759447~2023-02-18~3682~7.67
+130~Pechugas enteras de pollo~1~7.67~13759447~2023-02-18~3682~7.67
+131~Medallones pechuga de pollo marinado~1~3.98~13759447~2023-02-18~2831~3.98
+132~Medallones pechuga de pollo marinado~1~3.8~13759447~2023-02-18~2831~3.8
+133~Judía verde redonda~1~2.2~13703740~2023-02-11~69878~2.2
+134~Barquillos con crema de avellanas Hacendado~1~1.5~13703740~2023-02-11~14241~1.5
+135~Refresco Coca-Cola Zero Zero~1~9.84~13703740~2023-02-11~26997~9.84
+136~Refresco Coca-Cola Zero Zero~1~9.84~13703740~2023-02-11~26997~9.84
+137~Refresco Coca-Cola Zero Zero~1~9.84~13703740~2023-02-11~26997~9.84
+138~Refresco Coca-Cola Zero Zero~1~9.84~13703740~2023-02-11~26997~9.84
+139~Arándanos~1~2.78~13703740~2023-02-11~5501~2.78
+140~Pechuga de pavo bajo en sal Hacendado finas lonchas~1~3.37~13703740~2023-02-11~59252~3.37
+141~Pechuga de pavo bajo en sal Hacendado finas lonchas~1~3.37~13703740~2023-02-11~59252~3.37
+142~Palitos de zanahoria~1~1.78~13703740~2023-02-11~69877~1.78
+143~Papel higiénico húmedo WC Bosque Verde~1~1.55~13703740~2023-02-11~47291~1.55
+144~Cebolla troceada Hacendado ultracongelada~1~0.96~13703740~2023-02-11~13568~0.96
+145~Leche desnatada sin lactosa Hacendado~2~1.94~13703740~2023-02-11~10731~0.97
+146~Leche desnatada sin lactosa Hacendado~2~1.94~13703740~2023-02-11~10731~0.97
+147~Preparado de carne picada vacuno~1~7.45~13703740~2023-02-11~3454~7.45
+148~Preparado de carne picada vacuno~1~7.45~13703740~2023-02-11~3454~7.45
+149~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.95~13703740~2023-02-11~60956~1.95
+150~Espárrago verde grueso~1~3.26~13703740~2023-02-11~69643~3.26
+151~Tomate pera~2~0.51~13703740~2023-02-11~69912~0.255
+152~Banana~5~1.14~13703740~2023-02-11~3824~0.22799999999999998
+153~Ensalada mezcla brotes tiernos maxi~1~1.68~13703740~2023-02-11~69810~1.68
+154~Huevos grandes L~1~4.09~13703740~2023-02-11~31003~4.09
+155~Huevos grandes L~1~4.09~13703740~2023-02-11~31003~4.09
+156~Huevos grandes L~1~4.09~13703740~2023-02-11~31003~4.09
+157~Pechugas enteras de pollo~1~7.32~13703740~2023-02-11~3682~7.32
+158~Pechugas enteras de pollo~1~7.32~13703740~2023-02-11~3682~7.32
+159~Aguacates~1~2.61~13703740~2023-02-11~3858~2.61
+160~Medallones pechuga de pollo marinado~1~4.54~13703740~2023-02-11~2831~4.54
+161~Medallones pechuga de pollo marinado~1~4.06~13703740~2023-02-11~2831~4.06
+162~Sal fina Hacendado~1~0.3~13640454~2023-02-04~19731~0.3
+163~Aceite de oliva virgen extra Hacendado~1~2.34~13640454~2023-02-04~4718~2.34
+164~Aceite de oliva virgen extra Hacendado~1~2.34~13640454~2023-02-04~4718~2.34
+165~Aceite de oliva virgen extra Hacendado~1~2.34~13640454~2023-02-04~4718~2.34
+166~Chili con carne Hacendado~1~2.6~13640454~2023-02-04~23137~2.6
+167~Fajitas pollo y verduras~2~7.98~13640454~2023-02-04~4284~3.99
+168~Salteado de setas Hacendado ultracongeladas~1~1.73~13640454~2023-02-04~61025~1.73
+169~Muesli Crunchy Hacendado sin azúcares añadidos~1~1.95~13640454~2023-02-04~9451~1.95
+170~Edulcorante en sobres stevia Hacendado~1~2.0~13640454~2023-02-04~19825~2.0
+171~Vinagre de Limpieza Bosque Verde concentrado~1~0.8~13640454~2023-02-04~49402~0.8
+172~Café molido natural Hacendado~1~3.2~13640454~2023-02-04~11178~3.2
+173~Café molido natural Hacendado~1~3.2~13640454~2023-02-04~11172~3.2
+174~Detergente ropa All in 1 Ariel Pods en cápsulas~1~8.8~13640454~2023-02-04~16806~8.8
+175~Papel higiénico Suave Bosque Verde~1~3.5~13640454~2023-02-04~47824~3.5
+176~Maxi tortillas de trigo Hacendado~1~1.6~13640454~2023-02-04~80870~1.6
+177~Palitos de zanahoria~1~1.78~13640454~2023-02-04~69877~1.78
+178~Hummus de garbanzos Hacendado con olivas de kalamata~1~1.45~13640454~2023-02-04~80892~1.45
+179~Arroz largo Hacendado~1~1.3~13640454~2023-02-04~5063~1.3
+180~Cebollas~1~2.3~13640454~2023-02-04~69079~2.3
+181~Cebollas~1~2.3~13640454~2023-02-04~69089~2.3
+182~Spaghetti Hacendado~1~1.24~13640454~2023-02-04~6331~1.24
+183~Spaghetti Hacendado~1~1.24~13640454~2023-02-04~6331~1.24
+184~Jamón serrano Incarlopsa lonchas~1~3.58~13640454~2023-02-04~59124~3.58
+185~Salsa boloñesa Hacendado~1~1.2~13640454~2023-02-04~17169~1.2
+186~Salsa de tomate, albahaca y orégano Hacendado~1~1.2~13640454~2023-02-04~17283~1.2
+187~Pan de molde 100% integral Hacendado~1~0.95~13640454~2023-02-04~82328~0.95
+188~Leche desnatada sin lactosa Hacendado~2~1.94~13640454~2023-02-04~10731~0.97
+189~Leche desnatada sin lactosa Hacendado~2~1.94~13640454~2023-02-04~10731~0.97
+190~Preparado de carne picada vacuno~1~7.45~13640454~2023-02-04~3454~7.45
+191~Preparado de carne picada vacuno~1~7.45~13640454~2023-02-04~3454~7.45
+192~Pimiento rojo~1~1.03~13640454~2023-02-04~69310~1.03
+193~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.95~13640454~2023-02-04~60956~1.95
+194~Espárrago verde grueso~1~3.26~13640454~2023-02-04~69643~3.26
+195~Tomate pera~3~0.94~13640454~2023-02-04~69912~0.3133333333333333
+196~Banana~5~1.49~13640454~2023-02-04~3824~0.298
+197~Ensalada mezcla brotes tiernos maxi~1~1.68~13640454~2023-02-04~69810~1.68
+198~Huevos grandes L~1~4.09~13640454~2023-02-04~31003~4.09
+199~Huevos grandes L~1~4.09~13640454~2023-02-04~31003~4.09
+200~Huevos grandes L~1~4.09~13640454~2023-02-04~31003~4.09
+201~Pechugas enteras de pollo~1~5.54~13640454~2023-02-04~3682~5.54
+202~Pechugas enteras de pollo~1~5.54~13640454~2023-02-04~3682~5.54
+203~Queso de oveja Entrepinares lonchas~1~2.35~13640454~2023-02-04~50151~2.35
+204~Medallones pechuga de pollo marinado~1~4.25~13640454~2023-02-04~2831~4.25
+205~Aguacates~1~2.98~13640454~2023-02-04~3858~2.98
+206~Remolacha cocida y pelada~2~1.7~13580934~2023-01-28~69523~0.85
+207~Pan de molde 100% integral Hacendado~1~0.95~13580934~2023-01-28~82328~0.95
+208~Chili con carne Hacendado~1~2.6~13580934~2023-01-28~23137~2.6
+209~Bebida de almendras zero Hacendado~1~1.45~13580934~2023-01-28~23926~1.45
+210~Espárrago verde troceado Hacendado ultracongelado~1~2.4~13580934~2023-01-28~61238~2.4
+211~Servilleta papel Bosque Verde~1~1.4~13580934~2023-01-28~49544~1.4
+212~Muesli Crunchy Hacendado con frutos secos~1~2.0~13580934~2023-01-28~9357~2.0
+213~Leche desnatada sin lactosa Hacendado~2~1.94~13580934~2023-01-28~10731~0.97
+214~Leche desnatada sin lactosa Hacendado~2~1.94~13580934~2023-01-28~10731~0.97
+215~Arándanos~1~2.78~13580934~2023-01-28~5501~2.78
+216~Fajitas pollo y verduras~2~7.98~13580934~2023-01-28~4284~3.99
+217~Preparado de carne picada vacuno~1~7.45~13580934~2023-01-28~3454~7.45
+218~Preparado de carne picada vacuno~1~7.45~13580934~2023-01-28~3454~7.45
+219~Pimiento rojo~1~0.95~13580934~2023-01-28~69310~0.95
+220~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.7~13580934~2023-01-28~60956~1.7
+221~Espárrago verde grueso~1~3.26~13580934~2023-01-28~69643~3.26
+222~Tomate pera~1~0.26~13580934~2023-01-28~69912~0.26
+223~Banana~3~0.88~13580934~2023-01-28~3824~0.29333333333333333
+224~Ensalada mezcla brotes tiernos maxi~1~1.68~13580934~2023-01-28~69810~1.68
+225~Huevos grandes L~2~8.18~13580934~2023-01-28~31003~4.09
+226~Huevos grandes L~2~8.18~13580934~2023-01-28~31003~4.09
+227~Huevos grandes L~2~8.18~13580934~2023-01-28~31003~4.09
+228~Medallones pechuga de pollo marinado~1~3.67~13580934~2023-01-28~2831~3.67
+229~Aguacates~1~2.55~13580934~2023-01-28~3858~2.55
+230~Pechugas enteras de pollo~1~5.99~13580934~2023-01-28~3682~5.99
+231~Pechugas enteras de pollo~1~5.99~13580934~2023-01-28~3682~5.99
+232~Pechuga de pavo bajo en sal Hacendado finas lonchas~1~3.37~13546313~2023-01-21~59252~3.37
+233~Pechuga de pavo bajo en sal Hacendado finas lonchas~1~3.37~13546313~2023-01-21~59252~3.37
+234~Queso de cabra Président en medallones~1~3.32~13546313~2023-01-21~51149~3.32
+235~Leche desnatada sin lactosa Hacendado~1~0.97~13546313~2023-01-21~10731~0.97
+236~Leche desnatada sin lactosa Hacendado~1~0.97~13546313~2023-01-21~10731~0.97
+237~Pasta tiburón Hacendado~1~0.76~13546313~2023-01-21~6244~0.76
+238~Bolsa de basura envases Bosque Verde 30L cubo mediano~1~1.65~13546313~2023-01-21~49705~1.65
+239~Tequeños de queso Hacendado ultracongelados~1~4.65~13546313~2023-01-21~13413~4.65
+240~Papel higiénico húmedo WC Bosque Verde~1~1.55~13546313~2023-01-21~47291~1.55
+241~Helado vegetal mini a base de anacardo con crema de pistacho Hacendado~1~2.7~13546313~2023-01-21~23850~2.7
+242~Anacardo natural Hacendado~1~2.5~13546313~2023-01-21~23365~2.5
+243~Arándanos~1~2.78~13546313~2023-01-21~5501~2.78
+244~Ambientador automático Caramel Bosque Verde~1~1.9~13546313~2023-01-21~72405~1.9
+245~Judía verde redonda~1~2.2~13546313~2023-01-21~69878~2.2
+246~Palitos de zanahoria~1~1.68~13546313~2023-01-21~69877~1.68
+247~Fajitas pollo y verduras~2~7.98~13546313~2023-01-21~4284~3.99
+248~Preparado de carne picada vacuno~1~7.45~13546313~2023-01-21~3454~7.45
+249~Preparado de carne picada vacuno~1~7.45~13546313~2023-01-21~3454~7.45
+250~Pimiento rojo~1~0.88~13546313~2023-01-21~69310~0.88
+251~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.7~13546313~2023-01-21~60956~1.7
+252~Espárrago verde grueso~1~3.26~13546313~2023-01-21~69643~3.26
+253~Tomate pera~1~0.26~13546313~2023-01-21~69912~0.26
+254~Banana~5~1.21~13546313~2023-01-21~3824~0.242
+255~Ensalada mezcla brotes tiernos maxi~1~1.68~13546313~2023-01-21~69810~1.68
+256~Huevos grandes L~2~8.18~13546313~2023-01-21~31003~4.09
+257~Huevos grandes L~2~8.18~13546313~2023-01-21~31003~4.09
+258~Huevos grandes L~2~8.18~13546313~2023-01-21~31003~4.09
+259~Aguacates~1~2.62~13546313~2023-01-21~3858~2.62
+260~Apio verde~1~1.21~13546313~2023-01-21~69275~1.21
+261~Pechugas enteras de pollo~1~8.19~13546313~2023-01-21~3682~8.19
+262~Pechugas enteras de pollo~1~8.19~13546313~2023-01-21~3682~8.19
+263~Medallones pechuga de pollo marinado~1~3.61~13546313~2023-01-21~2831~3.61
+264~Barquillos con crema de avellanas Hacendado~1~1.5~13507140~2023-01-14~14241~1.5
+265~Muesli Crunchy Hacendado sin azúcares añadidos~1~1.65~13507140~2023-01-14~9451~1.65
+266~Leche desnatada sin lactosa Hacendado~1~0.97~13507140~2023-01-14~10731~0.97
+267~Leche desnatada sin lactosa Hacendado~1~0.97~13507140~2023-01-14~10731~0.97
+268~Bebida de almendras zero Hacendado~1~1.45~13507140~2023-01-14~23926~1.45
+269~Dentífrico Protección Caries Colgate~1~1.85~13507140~2023-01-14~73979~1.85
+270~Aceite de oliva virgen extra Hacendado~1~2.34~13507140~2023-01-14~4718~2.34
+271~Aceite de oliva virgen extra Hacendado~1~2.34~13507140~2023-01-14~4718~2.34
+272~Aceite de oliva virgen extra Hacendado~1~2.34~13507140~2023-01-14~4718~2.34
+273~Salteado de setas Hacendado ultracongeladas~1~1.73~13507140~2023-01-14~61025~1.73
+274~Arroz negro Hacendado ultracongelado~1~2.5~13507140~2023-01-14~61327~2.5
+275~Chili con carne Hacendado~1~2.6~13507140~2023-01-14~23137~2.6
+276~Fajitas pollo y verduras~2~7.98~13507140~2023-01-14~4284~3.99
+277~Preparado de carne picada vacuno~1~7.45~13507140~2023-01-14~3454~7.45
+278~Preparado de carne picada vacuno~1~7.45~13507140~2023-01-14~3454~7.45
+279~Queso Cheddar Hacendado lonchas~1~1.92~13507140~2023-01-14~55017~1.92
+280~Pimiento rojo~1~0.92~13507140~2023-01-14~69310~0.92
+281~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.7~13507140~2023-01-14~60956~1.7
+282~Espárrago verde grueso~1~3.26~13507140~2023-01-14~69643~3.26
+283~Maxi tortillas de trigo Hacendado~1~1.6~13507140~2023-01-14~80870~1.6
+284~Pan de molde 100% integral Hacendado~1~0.95~13507140~2023-01-14~82328~0.95
+285~Refresco Coca-Cola Zero Zero~1~8.64~13507140~2023-01-14~26997~8.64
+286~Refresco Coca-Cola Zero Zero~1~8.64~13507140~2023-01-14~26997~8.64
+287~Refresco Coca-Cola Zero Zero~1~8.64~13507140~2023-01-14~26997~8.64
+288~Refresco Coca-Cola Zero Zero~1~8.64~13507140~2023-01-14~26997~8.64
+289~Tomate pera~1~0.25~13507140~2023-01-14~69912~0.25
+290~Banana~4~0.98~13507140~2023-01-14~3824~0.245
+291~Ensalada mezcla brotes tiernos maxi~1~1.68~13507140~2023-01-14~69810~1.68
+292~Huevos grandes L~1~4.09~13507140~2023-01-14~31003~4.09
+293~Huevos grandes L~1~4.09~13507140~2023-01-14~31003~4.09
+294~Huevos grandes L~1~4.09~13507140~2023-01-14~31003~4.09
+295~Eneldo hojas Hacendado~1~1.85~13449668~2023-01-11~34136~1.85
+296~Queso de cabra Président en medallones~1~3.32~13449668~2023-01-11~51149~3.32
+297~Zumo pura naranja Hacendado~2~2.1~13449668~2023-01-11~39010~1.05
+298~Zumo pura naranja Hacendado~2~2.1~13449668~2023-01-11~39010~1.05
+299~Redondos frescos berenjena, tomate y mozzarella Bel Canto~1~2.24~13449668~2023-01-11~6139~2.24
+300~Salsa de tomate, albahaca y orégano Hacendado~1~1.2~13449668~2023-01-11~17283~1.2
+301~Barrita con proteínas Enervit Sport sabor chocolate negro~1~4.9~13449668~2023-01-11~23670~4.9
+302~Papel de Aluminio Bosque Verde~1~2.3~13449668~2023-01-11~49000~2.3
+303~Pimiento rojo~1~0.86~13449668~2023-01-11~69310~0.86
+304~Pimiento rojo y verde Hacendado ultracongelado~1~1.06~13449668~2023-01-11~35221~1.06
+305~Salsa barbacoa Hacendado~1~1.15~13449668~2023-01-11~17346~1.15
+306~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.7~13449668~2023-01-11~60956~1.7
+307~Palitos de zanahoria~1~1.68~13449668~2023-01-11~69877~1.68
+308~Salsa césar Hacendado~1~1.25~13449668~2023-01-11~17366~1.25
+309~Patatas~1~4.23~13449668~2023-01-11~69166~4.23
+310~Patatas~1~4.23~13449668~2023-01-11~69099~4.23
+311~Espárrago verde grueso~1~3.26~13449668~2023-01-11~69643~3.26
+312~Pechuga de pavo bajo en sal Hacendado finas lonchas~1~3.37~13449668~2023-01-11~59252~3.37
+313~Pechuga de pavo bajo en sal Hacendado finas lonchas~1~3.37~13449668~2023-01-11~59252~3.37
+314~Maxi tortillas de trigo Hacendado~1~1.6~13449668~2023-01-11~80870~1.6
+315~Pan de molde 100% integral Hacendado~1~0.95~13449668~2023-01-11~82328~0.95
+316~Muesli Crunchy Hacendado sin azúcares añadidos~1~1.65~13449668~2023-01-11~9451~1.65
+317~6 Caracolas rellenas de cacao~1~1.6~13449668~2023-01-11~84688~1.6
+318~Refresco Coca-Cola Zero Zero~1~8.64~13449668~2023-01-11~26997~8.64
+319~Refresco Coca-Cola Zero Zero~1~8.64~13449668~2023-01-11~26997~8.64
+320~Refresco Coca-Cola Zero Zero~1~8.64~13449668~2023-01-11~26997~8.64
+321~Refresco Coca-Cola Zero Zero~1~8.64~13449668~2023-01-11~26997~8.64
+322~Tomate pera~3~0.71~13449668~2023-01-11~69912~0.23666666666666666
+323~Banana~6~1.72~13449668~2023-01-11~3824~0.2866666666666667
+324~Ensalada mezcla brotes tiernos maxi~1~1.68~13449668~2023-01-11~69810~1.68
+325~Huevos grandes L~2~8.18~13449668~2023-01-11~31003~4.09
+326~Huevos grandes L~2~8.18~13449668~2023-01-11~31003~4.09
+327~Huevos grandes L~2~8.18~13449668~2023-01-11~31003~4.09
+328~Salmón ahumado Hacendado~1~12.23~13449668~2023-01-11~53445~12.23
+329~Salmón ahumado Hacendado~1~12.23~13449668~2023-01-11~53445~12.23
+330~Aguacates~1~2.55~13449668~2023-01-11~3858~2.55
+331~Activador Blanqueante ropa blanca Bosque Verde en polvo~1~3.1~13397754~2023-01-04~40315~3.1
+332~Activador quitamanchas ropa de color Oxi Active Bosque Verde en polvo~1~3.1~13397754~2023-01-04~40317~3.1
+333~Disuelve manchas Bosque Verde~1~2.1~13397754~2023-01-04~40178~2.1
+334~Pudding +Proteínas caramelo Hacendado 12 g proteínas~1~1.7~13397754~2023-01-04~60956~1.7
+335~Bebida de almendras zero Hacendado~1~1.45~13397754~2023-01-04~23926~1.45
+336~Queso de cabra Président en medallones~1~3.32~13397754~2023-01-04~51149~3.32
+337~Pan de molde 100% integral familiar Hacendado~1~1.25~13397754~2023-01-04~83886~1.25
+338~Champú anticaspa Classic H&S~1~4.25~13397754~2023-01-04~35310~4.25
+339~Espárrago verde grueso~1~3.26~13397754~2023-01-04~69643~3.26
+340~Chili con carne Hacendado~1~2.6~13397754~2023-01-04~23137~2.6
+341~Fajitas pollo y verduras~2~7.98~13397754~2023-01-04~4284~3.99
+342~Espárrago verde troceado Hacendado ultracongelado~1~2.4~13397754~2023-01-04~61238~2.4
+343~Acondicionador Repara & Protege Pantene~1~3.0~13397754~2023-01-04~35615~3.0
+344~Toallitas limpiadoras desengrasantes de Cocina Bosque Verde~1~1.3~13397754~2023-01-04~43935~1.3
+345~Café molido natural Hacendado~1~3.0~13397754~2023-01-04~11178~3.0
+346~Café molido natural Hacendado~1~3.0~13397754~2023-01-04~11172~3.0
+347~Aceite de oliva virgen extra Hacendado~1~2.34~13397754~2023-01-04~4718~2.34
+348~Aceite de oliva virgen extra Hacendado~1~2.34~13397754~2023-01-04~4718~2.34
+349~Aceite de oliva virgen extra Hacendado~1~2.34~13397754~2023-01-04~4718~2.34
+350~Preparado de carne picada vacuno y cerdo~1~6.7~13397754~2023-01-04~3453~6.7
+351~Preparado de carne picada vacuno y cerdo~1~6.7~13397754~2023-01-04~3453~6.7
+352~Muesli Crunchy Hacendado sin azúcares añadidos~1~1.65~13397754~2023-01-04~9451~1.65
+353~6 Caracolas rellenas de cacao~1~1.6~13397754~2023-01-04~84688~1.6
+354~Refresco Coca-Cola Zero Zero~1~8.64~13397754~2023-01-04~26997~8.64
+355~Refresco Coca-Cola Zero Zero~1~8.64~13397754~2023-01-04~26997~8.64
+356~Refresco Coca-Cola Zero Zero~1~8.64~13397754~2023-01-04~26997~8.64
+357~Refresco Coca-Cola Zero Zero~1~8.64~13397754~2023-01-04~26997~8.64
+358~Barquillos con crema de avellanas Hacendado~1~1.5~13397754~2023-01-04~14241~1.5
+359~Tomate pera~2~0.44~13397754~2023-01-04~69912~0.22
+360~Banana~5~1.33~13397754~2023-01-04~3824~0.266
+361~Leche desnatada sin lactosa Hacendado~1~0.97~13397754~2023-01-04~10731~0.97
+362~Leche desnatada sin lactosa Hacendado~1~0.97~13397754~2023-01-04~10731~0.97
+363~Ensalada mezcla brotes tiernos maxi~1~1.68~13397754~2023-01-04~69810~1.68
+364~Huevos grandes L~2~8.18~13397754~2023-01-04~31003~4.09
+365~Huevos grandes L~2~8.18~13397754~2023-01-04~31003~4.09
+366~Huevos grandes L~2~8.18~13397754~2023-01-04~31003~4.09
+367~Pechugas enteras de pollo~1~5.99~13397754~2023-01-04~3682~5.99
+368~Pechugas enteras de pollo~1~5.99~13397754~2023-01-04~3682~5.99
+369~Aguacates~1~2.52~13397754~2023-01-04~3858~2.52
+370~Cava brut nature Raimat~1~7.79~13374140~2022-12-28~28957~7.79
+371~Jamón serrano Incarlopsa lonchas~1~3.58~13374140~2022-12-28~59124~3.58
+372~Queso de cabra Hacendado rulo~1~2.35~13374140~2022-12-28~50021~2.35
+373~Mantequilla con sal Hacendado~1~2.15~13374140~2022-12-28~20727~2.15
+374~Mantequilla con sal Hacendado~1~2.15~13374140~2022-12-28~20727~2.15
+375~Pimiento rojo~1~0.72~13374140~2022-12-28~69310~0.72
+376~Preparado de carne picada vacuno y cerdo~1~6.7~13374140~2022-12-28~3453~6.7
+377~Preparado de carne picada vacuno y cerdo~1~6.7~13374140~2022-12-28~3453~6.7
+378~Muesli Crunchy Hacendado sin azúcares añadidos~1~1.65~13374140~2022-12-28~9451~1.65
+379~6 Caracolas rellenas de cacao~1~1.6~13374140~2022-12-28~84688~1.6
+380~Edulcorante en sobres stevia Hacendado~1~2.0~13374140~2022-12-28~19825~2.0
+381~Refresco Coca-Cola Zero Zero~1~8.64~13374140~2022-12-28~26997~8.64
+382~Refresco Coca-Cola Zero Zero~1~8.64~13374140~2022-12-28~26997~8.64
+383~Refresco Coca-Cola Zero Zero~1~8.64~13374140~2022-12-28~26997~8.64
+384~Refresco Coca-Cola Zero Zero~1~8.64~13374140~2022-12-28~26997~8.64
+385~Barquillos con crema de avellanas Hacendado~1~1.5~13374140~2022-12-28~14241~1.5
+386~Tomate pera~2~0.42~13374140~2022-12-28~69912~0.21
+387~Banana~3~0.71~13374140~2022-12-28~3824~0.23666666666666666
+388~Leche desnatada sin lactosa Hacendado~1~1.01~13374140~2022-12-28~10731~1.01
+389~Leche desnatada sin lactosa Hacendado~1~1.01~13374140~2022-12-28~10731~1.01
+390~Ensalada mezcla brotes tiernos maxi~1~1.75~13374140~2022-12-28~69810~1.75
+391~Huevos grandes L~2~8.5~13374140~2022-12-28~31003~4.25
+392~Huevos grandes L~2~8.5~13374140~2022-12-28~31003~4.25
+393~Huevos grandes L~2~8.5~13374140~2022-12-28~31003~4.25
+394~Pechugas enteras de pollo~1~6.2~13374140~2022-12-28~3682~6.2
+395~Pechugas enteras de pollo~1~6.2~13374140~2022-12-28~3682~6.2
+396~Medallones pechuga de pollo marinado~1~4.49~13374140~2022-12-28~2831~4.49
+397~Medallones pechuga de pollo marinado~1~3.6~13374140~2022-12-28~2831~3.6
+398~Aguacates~1~2.89~13374140~2022-12-28~3858~2.89
+399~Uva roja sin semillas~1~2.52~13374140~2022-12-28~3321~2.52
+400~Hummus de garbanzos Hacendado con pimiento del piquillo asado~1~1.45~13315781~2022-12-21~80862~1.45
+401~Judía verde redonda~1~2.29~13315781~2022-12-21~69878~2.29
+402~Muesli Crunchy Hacendado sin azúcares añadidos~1~1.65~13315781~2022-12-21~9451~1.65
+403~Edulcorante en sobres stevia Hacendado~1~2.0~13315781~2022-12-21~19825~2.0
+404~Pimiento verde freír~1~0.4~13315781~2022-12-21~69320~0.4
+405~Refresco Coca-Cola Zero Zero~1~8.64~13315781~2022-12-21~26997~8.64
+406~Refresco Coca-Cola Zero Zero~1~8.64~13315781~2022-12-21~26997~8.64
+407~Refresco Coca-Cola Zero Zero~1~8.64~13315781~2022-12-21~26997~8.64
+408~Refresco Coca-Cola Zero Zero~1~8.64~13315781~2022-12-21~26997~8.64
+409~Detergente ropa All in 1 Ariel Pods en cápsulas~1~8.8~13315781~2022-12-21~16806~8.8
+410~Papel higiénico húmedo WC Bosque Verde~1~1.55~13315781~2022-12-21~47291~1.55
+411~Papel higiénico Suave Bosque Verde~1~3.5~13315781~2022-12-21~47824~3.5
+412~Natillas +Proteínas sabor vainilla Hacendado 12 g proteínas~1~1.7~13315781~2022-12-21~22311~1.7
+413~Cebollas~1~1.55~13315781~2022-12-21~69079~1.55
+414~Cebollas~1~1.55~13315781~2022-12-21~69089~1.55
+415~Patatas especial para freir~1~3.05~13315781~2022-12-21~69448~3.05
+416~Chili con carne Hacendado~1~2.6~13315781~2022-12-21~23137~2.6
+417~Fajitas pollo y verduras~2~7.98~13315781~2022-12-21~4284~3.99
+418~Maxi tortillas de trigo Hacendado~1~1.6~13315781~2022-12-21~80870~1.6
+419~Barquillos con crema de avellanas Hacendado~1~1.5~13315781~2022-12-21~14241~1.5
+420~Servilleta papel Bosque Verde~1~1.4~13315781~2022-12-21~49544~1.4
+421~Aceite de oliva virgen extra Hacendado~1~2.45~13315781~2022-12-21~4718~2.45
+422~Aceite de oliva virgen extra Hacendado~1~2.45~13315781~2022-12-21~4718~2.45
+423~Aceite de oliva virgen extra Hacendado~1~2.45~13315781~2022-12-21~4718~2.45
+424~Bebida de almendras zero Hacendado~1~1.4~13315781~2022-12-21~23926~1.4
+425~Pan de molde 100% integral Hacendado~1~0.95~13315781~2022-12-21~82328~0.95
+426~Espárrago verde grueso~1~3.39~13315781~2022-12-21~69643~3.39
+427~Tomate pera~2~0.48~13315781~2022-12-21~69912~0.24
+428~Banana~3~0.83~13315781~2022-12-21~3824~0.27666666666666667
+429~Leche desnatada sin lactosa Hacendado~3~3.03~13315781~2022-12-21~10731~1.01
+430~Leche desnatada sin lactosa Hacendado~3~3.03~13315781~2022-12-21~10731~1.01
+431~Ensalada mezcla brotes tiernos maxi~1~1.75~13315781~2022-12-21~69810~1.75
+432~Huevos grandes L~2~8.5~13315781~2022-12-21~31003~4.25
+433~Huevos grandes L~2~8.5~13315781~2022-12-21~31003~4.25
+434~Huevos grandes L~2~8.5~13315781~2022-12-21~31003~4.25
+435~Calabaza cacahuete cortada a trozos~1~1.93~13315781~2022-12-21~3527~1.93
+436~Aguacates~1~2.72~13315781~2022-12-21~3858~2.72
+437~Medallones pechuga de pollo marinado~1~3.93~13315781~2022-12-21~2831~3.93
+438~Medallones pechuga de pollo marinado~1~4.32~13315781~2022-12-21~2831~4.32
+439~Queso de oveja Entrepinares lonchas~1~2.44~13315781~2022-12-21~50151~2.44
+440~Barquillos con crema de avellanas Hacendado~1~1.5~13253776~2022-12-14~14241~1.5
+441~Helado almendrado Hacendado~1~2.5~13253776~2022-12-14~64000~2.5
+442~Mandarina~4~1.0~13253776~2022-12-14~3238~0.25
+443~Mandarina~4~1.0~13253776~2022-12-14~5504~0.25
+444~Espárrago verde troceado Hacendado ultracongelado~1~2.5~13253776~2022-12-14~61238~2.5
+445~Salteado de setas Hacendado ultracongeladas~1~1.8~13253776~2022-12-14~61025~1.8
+446~Pechuga de pavo Hacendado finas lonchas~1~3.15~13253776~2022-12-14~67972~3.15
+447~Bebida de almendras zero Hacendado~1~1.4~13253776~2022-12-14~23926~1.4
+448~Cebolla troceada Hacendado ultracongelada~1~1.0~13253776~2022-12-14~13568~1.0
+449~Cebollas~1~1.55~13253776~2022-12-14~69079~1.55
+450~Cebollas~1~1.55~13253776~2022-12-14~69089~1.55
+451~Arroz basmati aromático Hacendado~1~2.5~13253776~2022-12-14~5002~2.5
+452~Pan de molde 100% integral Hacendado~1~0.95~13253776~2022-12-14~82328~0.95
+453~Chili con carne Hacendado~1~2.6~13253776~2022-12-14~23137~2.6
+454~Fajitas pollo y verduras~2~7.98~13253776~2022-12-14~4284~3.99
+455~Vela perfumada Té Chai Bosque Verde~1~1.65~13253776~2022-12-14~15805~1.65
+456~Jabón de manos Beauty Cream Bar Dove pastilla~1~2.6~13253776~2022-12-14~67908~2.6
+457~Espárrago verde grueso~1~3.39~13253776~2022-12-14~69643~3.39
+458~Tomate pera~3~0.58~13253776~2022-12-14~69912~0.19333333333333333
+459~Preparado de carne picada vacuno y cerdo~1~5.74~13253776~2022-12-14~3453~5.74
+460~Preparado de carne picada vacuno y cerdo~1~5.74~13253776~2022-12-14~3453~5.74
+461~Banana~5~1.15~13253776~2022-12-14~3824~0.22999999999999998
+462~Muesli Crunchy Hacendado con frutos secos~1~1.75~13253776~2022-12-14~9357~1.75
+463~Leche desnatada sin lactosa Hacendado~2~2.02~13253776~2022-12-14~10731~1.01
+464~Leche desnatada sin lactosa Hacendado~2~2.02~13253776~2022-12-14~10731~1.01
+465~Ensalada mezcla brotes tiernos maxi~1~1.75~13253776~2022-12-14~69810~1.75
+466~Huevos grandes L~2~8.5~13253776~2022-12-14~31003~4.25
+467~Huevos grandes L~2~8.5~13253776~2022-12-14~31003~4.25
+468~Huevos grandes L~2~8.5~13253776~2022-12-14~31003~4.25
+469~6 Caracolas rellenas de cacao~1~1.6~13253776~2022-12-14~84688~1.6
+470~Aguacates~1~2.67~13253776~2022-12-14~3858~2.67
+471~Queso de oveja Entrepinares lonchas~1~2.37~13253776~2022-12-14~50151~2.37
+472~Pechugas enteras de pollo~1~6.28~13253776~2022-12-14~3682~6.28
+473~Pechugas enteras de pollo~1~6.28~13253776~2022-12-14~3682~6.28
+474~Medallones pechuga de pollo marinado~1~3.61~13253776~2022-12-14~2831~3.61
+475~Medallones pechuga de pollo marinado~1~3.98~13253776~2022-12-14~2831~3.98
+476~6 Caracolas rellenas de cacao~1~1.6~13220829~2022-12-07~84688~1.6
+477~Snacks gato rellenos con salmón y malta Compy~1~1.1~13220829~2022-12-07~16858~1.1
+478~Cilantro~1~1.25~13220829~2022-12-07~69690~1.25
+479~Arándanos~1~2.89~13220829~2022-12-07~5501~2.89
+480~Pimientos tricolor rojo, amarillo y verde~1~1.79~13220829~2022-12-07~69491~1.79
+481~Galletas cacahuete y chocolate Hacendado~1~1.35~13220829~2022-12-07~0~1.35
+482~Cereales Peanut Balls Hacendado bolas de maíz y crema de cacahuete~1~1.95~13220829~2022-12-07~60875~1.95
+483~Crema de cacahuete 100% Crunchy Hacendado~1~3.1~13220829~2022-12-07~22836~3.1
+484~Ajo granulado Hacendado~1~0.85~13220829~2022-12-07~34181~0.85
+485~Jengibre molido Hacendado~1~1.4~13220829~2022-12-07~34149~1.4
+486~Pimiento rojo y verde Hacendado ultracongelado~1~1.1~13220829~2022-12-07~35221~1.1
+487~Cúrcuma Hacendado~1~1.25~13220829~2022-12-07~34163~1.25
+488~Leche de coco Dee Thai~1~1.5~13220829~2022-12-07~17174~1.5
+489~Natillas +Proteínas chocolate Hacendado 1,3 g m.g 10 g proteínas~1~1.7~13220829~2022-12-07~21061~1.7
+490~Barquillos con crema de avellanas Hacendado~1~1.5~13220829~2022-12-07~14241~1.5
+491~Bicarbonato sódico Hacendado~1~1.0~13220829~2022-12-07~29006~1.0
+492~Bicarbonato sódico Hacendado~1~1.0~13220829~2022-12-07~29006~1.0
+493~Impulsor gasificante en polvo Royal uso alimentario~1~2.25~13220829~2022-12-07~29225~2.25
+494~Papel vegetal Bosque Verde~1~1.7~13220829~2022-12-07~23608~1.7
+495~Papel higiénico húmedo WC Bosque Verde~1~1.55~13220829~2022-12-07~47291~1.55
+496~Canela molida Hacendado~1~0.85~13220829~2022-12-07~34177~0.85
+497~Bebida de almendras zero Hacendado~1~1.4~13220829~2022-12-07~23926~1.4
+498~Dentífrico Protección Caries Colgate~1~1.85~13220829~2022-12-07~73979~1.85
+499~Refresco Coca-Cola Zero Zero~1~9.36~13220829~2022-12-07~26997~9.36
+500~Refresco Coca-Cola Zero Zero~1~9.36~13220829~2022-12-07~26997~9.36
+501~Refresco Coca-Cola Zero Zero~1~9.36~13220829~2022-12-07~26997~9.36
+502~Refresco Coca-Cola Zero Zero~1~9.36~13220829~2022-12-07~26997~9.36
+503~Vinagre de Limpieza Bosque Verde concentrado~1~0.8~13220829~2022-12-07~49402~0.8
+504~Plátano macho~2~1.29~13220829~2022-12-07~3132~0.645
+505~Cereales rellenos de chocolate y avellana Hacendado~1~1.95~13220829~2022-12-07~9377~1.95
+506~Espárrago verde grueso~2~6.78~13220829~2022-12-07~69643~3.39
+507~Tomate pera~1~0.25~13220829~2022-12-07~69912~0.25
+508~Banana~3~0.83~13220829~2022-12-07~3824~0.27666666666666667
+509~Ensalada mezcla brotes tiernos maxi~1~1.75~13220829~2022-12-07~69810~1.75
+510~Huevos grandes L~1~4.25~13220829~2022-12-07~31003~4.25
+511~Huevos grandes L~1~4.25~13220829~2022-12-07~31003~4.25
+512~Huevos grandes L~1~4.25~13220829~2022-12-07~31003~4.25
+513~Pechugas enteras de pollo~1~7.56~13220829~2022-12-07~3682~7.56
+514~Pechugas enteras de pollo~1~7.56~13220829~2022-12-07~3682~7.56
+515~Calabaza cacahuete cortada a trozos~1~2.15~13220829~2022-12-07~3527~2.15
+516~Aguacates~1~2.45~13220829~2022-12-07~3858~2.45
+517~Dentífrico Protección Caries Colgate~1~1.85~13151497~2022-11-30~73979~1.85
+518~Toallitas bebé frescas & perfumadas Deliplus~1~1.05~13151497~2022-11-30~79427~1.05
+519~Toallitas bebé frescas & perfumadas Deliplus~1~1.05~13151497~2022-11-30~79427~1.05
+520~Toallitas bebé frescas & perfumadas Deliplus~1~1.05~13151497~2022-11-30~79427~1.05
+521~Servilleta papel Cocktail Bosque Verde~1~2.2~13151497~2022-11-30~49544~2.2
+522~Jamón serrano Incarlopsa lonchas~1~3.58~13151497~2022-11-30~59124~3.58
+523~Salsa césar Hacendado~1~1.25~13151497~2022-11-30~17366~1.25
+524~Cebollas~1~1.55~13151497~2022-11-30~69079~1.55
+525~Cebollas~1~1.55~13151497~2022-11-30~69089~1.55
+526~Helado mini cucurucho nata Hacendado~1~2.55~13151497~2022-11-30~64246~2.55
+527~Plátano macho~2~1.51~13151497~2022-11-30~3132~0.755
+528~Judía verde redonda~1~2.29~13151497~2022-11-30~69878~2.29
+529~Helado almendrado Hacendado~1~2.5~13151497~2022-11-30~64000~2.5
+530~Cereales rellenos de chocolate y avellana Hacendado~1~1.95~13151497~2022-11-30~9377~1.95
+531~Chili con carne Hacendado~1~2.6~13151497~2022-11-30~23137~2.6
+532~Fajitas pollo y verduras~2~7.98~13151497~2022-11-30~4284~3.99
+533~Refresco Coca-Cola Zero azúcar~1~9.36~13151497~2022-11-30~27426~9.36
+534~Refresco Coca-Cola Zero azúcar~1~9.36~13151497~2022-11-30~27426~9.36
+535~Refresco Coca-Cola Zero azúcar~1~9.36~13151497~2022-11-30~27426~9.36
+536~Refresco Coca-Cola Zero azúcar~1~9.36~13151497~2022-11-30~27426~9.36
+537~Refresco Coca-Cola Zero azúcar~1~9.36~13151497~2022-11-30~27426~9.36
+538~Refresco Coca-Cola Zero azúcar~1~9.36~13151497~2022-11-30~27426~9.36
+539~Refresco Coca-Cola Zero azúcar~1~9.36~13151497~2022-11-30~27426~9.36
+540~Espárrago verde grueso~2~5.98~13151497~2022-11-30~69643~2.99
+541~Palitos de zanahoria~1~1.75~13151497~2022-11-30~69877~1.75
+542~Tomate pera~2~0.37~13151497~2022-11-30~69912~0.185
+543~Preparado de carne picada vacuno y cerdo~1~5.74~13151497~2022-11-30~3453~5.74
+544~Preparado de carne picada vacuno y cerdo~1~5.74~13151497~2022-11-30~3453~5.74
+545~Arroz de secreto ibérico con setas Hacendado~1~3.0~13151497~2022-11-30~22767~3.0
+546~Banana~6~1.82~13151497~2022-11-30~3824~0.30333333333333334
+547~Muesli Crunchy Hacendado con frutos secos~1~1.75~13151497~2022-11-30~9357~1.75
+548~Leche desnatada sin lactosa Hacendado~1~1.01~13151497~2022-11-30~10731~1.01
+549~Leche desnatada sin lactosa Hacendado~1~1.01~13151497~2022-11-30~10731~1.01
+550~Ensalada mezcla brotes tiernos maxi~1~1.75~13151497~2022-11-30~69810~1.75
+551~Huevos grandes L~2~8.5~13151497~2022-11-30~31003~4.25
+552~Huevos grandes L~2~8.5~13151497~2022-11-30~31003~4.25
+553~Huevos grandes L~2~8.5~13151497~2022-11-30~31003~4.25
+554~Pechugas de pavo pimentón~1~5.09~13151497~2022-11-30~2836~5.09
+555~Aguacates~1~2.57~13151497~2022-11-30~3858~2.57
+556~Lomo de cerdo adobado~1~3.16~13151497~2022-11-30~2715~3.16
+557~Medallones pechuga de pollo marinado~1~3.9~13151497~2022-11-30~2831~3.9
+558~Medallones pechuga de pollo marinado~1~3.69~13151497~2022-11-30~2831~3.69
+559~Queso de oveja Entrepinares lonchas~1~2.44~13151497~2022-11-30~50151~2.44
+560~Postre lácteo +Proteínas con arándanos Hacendado 0% m.g 10 g proteínas~1~1.55~13117832~2022-11-23~21073~1.55
+561~Pan de molde 100% integral familiar Hacendado~1~1.25~13117832~2022-11-23~83886~1.25
+562~Espárrago verde grueso~2~5.98~13117832~2022-11-23~69643~2.99
+563~Remolacha cocida y pelada~2~1.7~13117832~2022-11-23~69523~0.85
+564~Pimiento rojo~1~1.13~13117832~2022-11-23~69310~1.13
+565~Palitos de zanahoria~1~1.75~13117832~2022-11-23~69877~1.75
+566~Tomate pera~2~0.33~13117832~2022-11-23~69912~0.165
+567~Preparado de carne picada vacuno y cerdo~1~5.74~13117832~2022-11-23~3453~5.74
+568~Preparado de carne picada vacuno y cerdo~1~5.74~13117832~2022-11-23~3453~5.74
+569~Arroz de secreto ibérico con setas Hacendado~1~3.0~13117832~2022-11-23~22767~3.0
+570~Banana~6~1.64~13117832~2022-11-23~3824~0.2733333333333333
+571~Muesli Crunchy Hacendado con frutos secos~1~1.75~13117832~2022-11-23~9357~1.75
+572~Edulcorante en sobres stevia Hacendado~1~2.0~13117832~2022-11-23~19825~2.0
+573~Leche desnatada sin lactosa Hacendado~3~2.88~13117832~2022-11-23~10731~0.96
+574~Leche desnatada sin lactosa Hacendado~3~2.88~13117832~2022-11-23~10731~0.96
+575~Ensalada mezcla brotes tiernos maxi~1~1.75~13117832~2022-11-23~69810~1.75
+576~Huevos grandes L~2~8.5~13117832~2022-11-23~31003~4.25
+577~Huevos grandes L~2~8.5~13117832~2022-11-23~31003~4.25
+578~Huevos grandes L~2~8.5~13117832~2022-11-23~31003~4.25
+579~6 Caracolas rellenas de cacao~1~1.6~13117832~2022-11-23~84688~1.6
+580~Medallones pechuga de pollo marinado~1~3.68~13117832~2022-11-23~2831~3.68
+581~Medallones pechuga de pollo marinado~1~3.81~13117832~2022-11-23~2831~3.81
+582~Queso de oveja Entrepinares lonchas~1~2.23~13117832~2022-11-23~50151~2.23
+583~Aguacates~1~2.33~13117832~2022-11-23~3858~2.33
+584~Ambientador automático Caramel Bosque Verde~1~1.9~13069090~2022-11-16~72405~1.9
+585~Postre lácteo +Proteínas con arándanos Hacendado 0% m.g 10 g proteínas~1~1.55~13069090~2022-11-16~21073~1.55
+586~Ensaladilla de cangrejo Hacendado~1~1.7~13069090~2022-11-16~80782~1.7
+587~Lasaña boloñesa Hacendado~1~2.65~13069090~2022-11-16~4487~2.65
+588~Pan de molde 100% integral familiar Hacendado~1~1.25~13069090~2022-11-16~83886~1.25
+589~Toallitas limpiadoras de Muebles Bosque Verde~1~1.35~13069090~2022-11-16~44127~1.35
+590~Gotas de chocolate negro para fundir Hacendado~2~3.2~13069090~2022-11-16~12544~1.6
+591~Patatas especial para freir~1~3.05~13069090~2022-11-16~69448~3.05
+592~Espárrago verde grueso~2~5.98~13069090~2022-11-16~69643~2.99
+593~Remolacha cocida y pelada~2~1.7~13069090~2022-11-16~69523~0.85
+594~Pimientos semipicantes~1~1.15~13069090~2022-11-16~69590~1.15
+595~Pimiento rojo~1~0.98~13069090~2022-11-16~69310~0.98
+596~Palitos de zanahoria~1~1.75~13069090~2022-11-16~69877~1.75
+597~Tomate pera~2~0.43~13069090~2022-11-16~69912~0.215
+598~Galletas crujientes chocolate y avena Hacendado~1~1.58~13069090~2022-11-16~0~1.58
+599~Galletas mini Oreo~1~1.65~13069090~2022-11-16~14030~1.65
+600~Cereales rellenos de chocolate y avellana Hacendado~1~1.95~13069090~2022-11-16~9377~1.95
+601~Muesli Hacendado con quinoa, chía y chocolate negro~1~1.95~13069090~2022-11-16~9536~1.95
+602~Jamón serrano Incarlopsa lonchas~1~3.49~13069090~2022-11-16~59124~3.49
+603~Pechuga de pavo Hacendado finas lonchas~1~3.15~13069090~2022-11-16~67972~3.15
+604~Preparado de carne picada vacuno y cerdo~2~11.48~13069090~2022-11-16~3453~5.74
+605~Preparado de carne picada vacuno y cerdo~2~11.48~13069090~2022-11-16~3453~5.74
+606~Maxi tortillas de trigo Hacendado~1~1.55~13069090~2022-11-16~80870~1.55
+607~Chili con carne Hacendado~1~2.6~13069090~2022-11-16~23137~2.6
+608~Fajitas pollo y verduras~2~7.98~13069090~2022-11-16~4284~3.99
+609~Flautas de pollo y queso~1~1.6~13069090~2022-11-16~2137~1.6
+610~Queso Cheddar Hacendado lonchas~1~1.9~13069090~2022-11-16~55017~1.9
+611~Arroz de secreto ibérico con setas Hacendado~1~3.0~13069090~2022-11-16~22767~3.0
+612~Banana~6~1.61~13069090~2022-11-16~3824~0.26833333333333337
+613~Café molido natural Hacendado~1~2.7~13069090~2022-11-16~11178~2.7
+614~Café molido natural Hacendado~1~2.7~13069090~2022-11-16~11172~2.7
+615~Muesli Crunchy Hacendado con frutos secos~1~1.75~13069090~2022-11-16~9357~1.75
+616~Edulcorante en sobres stevia Hacendado~1~2.0~13069090~2022-11-16~19825~2.0
+617~Refresco Coca-Cola Zero azúcar~1~9.36~13069090~2022-11-16~27426~9.36
+618~Refresco Coca-Cola Zero azúcar~1~9.36~13069090~2022-11-16~27426~9.36
+619~Refresco Coca-Cola Zero azúcar~1~9.36~13069090~2022-11-16~27426~9.36
+620~Refresco Coca-Cola Zero azúcar~1~9.36~13069090~2022-11-16~27426~9.36
+621~Refresco Coca-Cola Zero azúcar~1~9.36~13069090~2022-11-16~27426~9.36
+622~Refresco Coca-Cola Zero azúcar~1~9.36~13069090~2022-11-16~27426~9.36
+623~Refresco Coca-Cola Zero azúcar~1~9.36~13069090~2022-11-16~27426~9.36
+624~Leche desnatada sin lactosa Hacendado~3~2.88~13069090~2022-11-16~10731~0.96
+625~Leche desnatada sin lactosa Hacendado~3~2.88~13069090~2022-11-16~10731~0.96
+626~Ensalada mezcla brotes tiernos maxi~1~1.75~13069090~2022-11-16~69810~1.75
+627~Huevos grandes L~2~8.5~13069090~2022-11-16~31003~4.25
+628~Huevos grandes L~2~8.5~13069090~2022-11-16~31003~4.25
+629~Huevos grandes L~2~8.5~13069090~2022-11-16~31003~4.25
+630~6 Caracolas rellenas de cacao~1~1.6~13069090~2022-11-16~84688~1.6
+631~Salteado de setas laminadas~1~1.81~13069090~2022-11-16~69674~1.81
+632~Aguacates~1~2.45~13069090~2022-11-16~3858~2.45
+633~Medallones pechuga de pollo marinado~1~3.73~13069090~2022-11-16~2831~3.73
+634~Medallones pechuga de pollo marinado~1~4.64~13069090~2022-11-16~2831~4.64
+635~Calabaza cacahuete cortada a trozos~1~1.79~13069090~2022-11-16~3527~1.79
+636~Queso de oveja Entrepinares lonchas~1~2.52~13069090~2022-11-16~50151~2.52
+637~Queso Cheddar Hacendado lonchas~1~1.9~13029815~2022-11-09~55017~1.9
+638~Salsa de tomate, albahaca y orégano Hacendado~1~1.2~13029815~2022-11-09~17283~1.2
+639~Cereales rellenos de chocolate y avellana Hacendado~1~1.95~13029815~2022-11-09~9377~1.95
+640~Arroz de secreto ibérico con setas Hacendado~1~2.85~13029815~2022-11-09~22767~2.85
+641~Pimiento verde freír~1~0.26~13029815~2022-11-09~69320~0.26
+642~Arándanos~1~2.89~13029815~2022-11-09~5501~2.89
+643~Banana~7~1.77~13029815~2022-11-09~3824~0.25285714285714284
+644~Detergente ropa All in 1 Ariel en cápsulas~1~7.75~13029815~2022-11-09~16806~7.75
+645~Papel higiénico húmedo WC Bosque Verde~1~1.5~13029815~2022-11-09~47291~1.5
+646~Café molido natural Hacendado~1~2.7~13029815~2022-11-09~11178~2.7
+647~Café molido natural Hacendado~1~2.7~13029815~2022-11-09~11172~2.7
+648~Muesli Crunchy Hacendado con frutos secos~1~1.75~13029815~2022-11-09~9357~1.75
+649~Edulcorante en sobres stevia Hacendado~1~2.0~13029815~2022-11-09~19825~2.0
+650~Pan de molde 100% integral Hacendado~1~0.95~13029815~2022-11-09~82328~0.95
+651~Refresco Coca-Cola Zero azúcar~1~9.36~13029815~2022-11-09~27426~9.36
+652~Refresco Coca-Cola Zero azúcar~1~9.36~13029815~2022-11-09~27426~9.36
+653~Refresco Coca-Cola Zero azúcar~1~9.36~13029815~2022-11-09~27426~9.36
+654~Refresco Coca-Cola Zero azúcar~1~9.36~13029815~2022-11-09~27426~9.36
+655~Refresco Coca-Cola Zero azúcar~1~9.36~13029815~2022-11-09~27426~9.36
+656~Refresco Coca-Cola Zero azúcar~1~9.36~13029815~2022-11-09~27426~9.36
+657~Refresco Coca-Cola Zero azúcar~1~9.36~13029815~2022-11-09~27426~9.36
+658~Leche desnatada sin lactosa Hacendado~2~1.92~13029815~2022-11-09~10731~0.96
+659~Leche desnatada sin lactosa Hacendado~2~1.92~13029815~2022-11-09~10731~0.96
+660~Ensalada mezcla brotes tiernos maxi~1~1.75~13029815~2022-11-09~69810~1.75
+661~Aceite de oliva virgen extra Hacendado~2~4.3~13029815~2022-11-09~4718~2.15
+662~Aceite de oliva virgen extra Hacendado~2~4.3~13029815~2022-11-09~4718~2.15
+663~Aceite de oliva virgen extra Hacendado~2~4.3~13029815~2022-11-09~4718~2.15
+664~Servilleta papel Cocktail Bosque Verde~1~2.2~13029815~2022-11-09~49544~2.2
+665~Huevos grandes L~2~7.9~13029815~2022-11-09~31003~3.95
+666~Huevos grandes L~2~7.9~13029815~2022-11-09~31003~3.95
+667~Huevos grandes L~2~7.9~13029815~2022-11-09~31003~3.95
+668~6 Caracolas rellenas de cacao~1~1.6~13029815~2022-11-09~84688~1.6
+669~Helado con coco mochi Hacendado~1~2.55~13029815~2022-11-09~64491~2.55
+670~Avena molida Hacendado~2~2.3~13029815~2022-11-09~9457~1.15
+671~Bebida de avena con café Hacendado~1~0.9~13029815~2022-11-09~10688~0.9
+672~Barritas Sustitutivo de comida Belladieta sabor avena y chocolate con leche~1~3.1~13029815~2022-11-09~86259~3.1
+673~Aguacates~1~2.28~13029815~2022-11-09~3858~2.28
+674~Queso de oveja Entrepinares lonchas~1~2.48~13029815~2022-11-09~50151~2.48
+675~Medallones pechuga de pollo marinado~1~4.64~13029815~2022-11-09~2831~4.64
+676~Medallones pechuga de pollo marinado~1~4.82~13029815~2022-11-09~2831~4.82
+677~Champiñón laminado limpio~1~1.72~13029815~2022-11-09~69519~1.72
+678~Muesli Crunchy Hacendado con frutos secos~1~1.75~12950475~2022-10-31~9357~1.75
+679~Barrita con proteínas Enervit Sport sabor chocolate negro~1~4.9~12950475~2022-10-31~23670~4.9
+680~Cereales rellenos de crema de cacao y avellana Hacendado sin gluten~1~2.1~12950475~2022-10-31~9547~2.1
+681~Helado almendrado Hacendado~1~2.2~12950475~2022-10-31~64000~2.2
+682~Chili con carne Hacendado~1~2.6~12950475~2022-10-31~23137~2.6
+683~Fajitas pollo y verduras~2~7.98~12950475~2022-10-31~4284~3.99
+684~Desodorante invisible Black & White Nivea Men~2~5.5~12950475~2022-10-31~22124~2.75
+685~Paleta curada lonchas Paletas Marpa~1~3.87~12950475~2022-10-31~59173~3.87
+686~Champú anticaspa Citrus Fresh H&S cabello graso~1~4.25~12950475~2022-10-31~35309~4.25
+687~Café molido natural Hacendado~1~2.7~12950475~2022-10-31~11178~2.7
+688~Café molido natural Hacendado~1~2.7~12950475~2022-10-31~11172~2.7
+689~Pechuga de pavo Hacendado finas lonchas~1~3.15~12950475~2022-10-31~67972~3.15
+690~Refresco Coca-Cola Zero azúcar~1~8.64~12950475~2022-10-31~27426~8.64
+691~Refresco Coca-Cola Zero azúcar~1~8.64~12950475~2022-10-31~27426~8.64
+692~Refresco Coca-Cola Zero azúcar~1~8.64~12950475~2022-10-31~27426~8.64
+693~Refresco Coca-Cola Zero azúcar~1~8.64~12950475~2022-10-31~27426~8.64
+694~Refresco Coca-Cola Zero azúcar~1~8.64~12950475~2022-10-31~27426~8.64
+695~Refresco Coca-Cola Zero azúcar~1~8.64~12950475~2022-10-31~27426~8.64
+696~Refresco Coca-Cola Zero azúcar~1~8.64~12950475~2022-10-31~27426~8.64
+697~Judía verde redonda~1~2.29~12950475~2022-10-31~69878~2.29
+698~Pan de molde 100% integral Hacendado~1~0.95~12950475~2022-10-31~82328~0.95
+699~Plátano macho~2~1.23~12950475~2022-10-31~3132~0.615
+700~Leche desnatada sin lactosa Hacendado~2~1.82~12950475~2022-10-31~10731~0.91
+701~Leche desnatada sin lactosa Hacendado~2~1.82~12950475~2022-10-31~10731~0.91
+702~Ensalada mezcla brotes tiernos maxi~1~1.75~12950475~2022-10-31~69810~1.75
+703~Preparado de carne picada vacuno~1~6.18~12950475~2022-10-31~3454~6.18
+704~Preparado de carne picada vacuno~1~6.18~12950475~2022-10-31~3454~6.18
+705~Banana~8~2.13~12950475~2022-10-31~3824~0.26625
+706~Espárrago verde grueso~2~5.98~12950475~2022-10-31~69643~2.99
+707~Aguacates~1~2.99~12950475~2022-10-31~3858~2.99
+708~Pechugas enteras de pollo~1~3.03~12950475~2022-10-31~3682~3.03
+709~Pechugas enteras de pollo~1~3.03~12950475~2022-10-31~3682~3.03
+710~Pechugas enteras de pollo~1~3.96~12950475~2022-10-31~3682~3.96
+711~Pechugas enteras de pollo~1~3.96~12950475~2022-10-31~3682~3.96
+712~Chuletas lomo de cerdo~1~1.81~12950475~2022-10-31~4901~1.81
+713~Medallones pechuga de pollo marinado~1~4.04~12950475~2022-10-31~2831~4.04
+714~Medallones pechuga de pollo marinado~1~3.85~12950475~2022-10-31~2831~3.85
+715~Champiñón laminado limpio~1~1.55~12950475~2022-10-31~69519~1.55
+716~Queso de oveja Entrepinares lonchas~1~2.42~12950475~2022-10-31~50151~2.42
+717~Refresco Coca-Cola Zero azúcar~1~9.36~12878660~2022-10-20~27426~9.36
+718~Refresco Coca-Cola Zero azúcar~1~9.36~12878660~2022-10-20~27426~9.36
+719~Refresco Coca-Cola Zero azúcar~1~9.36~12878660~2022-10-20~27426~9.36
+720~Refresco Coca-Cola Zero azúcar~1~9.36~12878660~2022-10-20~27426~9.36
+721~Refresco Coca-Cola Zero azúcar~1~9.36~12878660~2022-10-20~27426~9.36
+722~Refresco Coca-Cola Zero azúcar~1~9.36~12878660~2022-10-20~27426~9.36
+723~Refresco Coca-Cola Zero azúcar~1~9.36~12878660~2022-10-20~27426~9.36
+724~Queso Cheddar Hacendado lonchas~1~1.9~12878660~2022-10-20~55017~1.9
+725~Pan de hamburguesa Brioche Hacendado~2~1.7~12878660~2022-10-20~1811~0.85
+726~Croquetas de pollo Hacendado ultracongeladas~1~3.0~12878660~2022-10-20~23211~3.0
+727~Tiras de pechuga pollo al horno Hacendado~2~4.0~12878660~2022-10-20~56652~2.0
+728~Arroz de secreto ibérico con setas Hacendado~2~5.7~12878660~2022-10-20~22767~2.85
+729~Maxi tortillas de trigo Hacendado~1~1.55~12878660~2022-10-20~80870~1.55
+730~Leche desnatada sin lactosa Hacendado~2~1.82~12878660~2022-10-20~10731~0.91
+731~Leche desnatada sin lactosa Hacendado~2~1.82~12878660~2022-10-20~10731~0.91
+732~Papel higiénico húmedo WC Bosque Verde~1~1.5~12878660~2022-10-20~47291~1.5
+733~Toallitas limpiadoras de Cristales y Espejos Bosque Verde~1~1.25~12878660~2022-10-20~43223~1.25
+734~Toallitas limpiadoras de baños Bosque Verde~1~1.3~12878660~2022-10-20~43482~1.3
+735~Burrata fresca Hacendado~1~2.4~12878660~2022-10-20~51218~2.4
+736~Mantequilla sin sal añadida Hacendado~1~1.95~12878660~2022-10-20~20716~1.95
+737~Salsa de tomate, albahaca y orégano Hacendado~1~1.2~12878660~2022-10-20~17283~1.2
+738~Queso en polvo grana padano Hacendado~1~1.7~12878660~2022-10-20~51146~1.7
+739~Cereales rellenos de chocolate y avellana Hacendado~1~1.95~12878660~2022-10-20~9377~1.95
+740~Remolacha cocida y pelada~2~1.7~12878660~2022-10-20~69523~0.85
+741~Judía verde redonda~1~2.15~12878660~2022-10-20~69878~2.15
+742~Tomate pera~2~0.37~12878660~2022-10-20~69912~0.185
+743~Chili con carne Hacendado~1~2.6~12878660~2022-10-20~23137~2.6
+744~Fajitas pollo y verduras~2~7.98~12878660~2022-10-20~4284~3.99
+745~Palitos de zanahoria~2~3.5~12878660~2022-10-20~69877~1.75
+746~Edulcorante en sobres stevia Hacendado~1~2.0~12878660~2022-10-20~19825~2.0
+747~Bebida de almendras zero Hacendado~1~1.4~12878660~2022-10-20~23926~1.4
+748~Hummus de garbanzos Hacendado receta clásica~2~2.4~12878660~2022-10-20~80858~1.2
+749~Muesli Crunchy Hacendado sin azúcares añadidos~1~1.65~12878660~2022-10-20~9451~1.65
+750~Preparado de carne picada vacuno~2~12.36~12878660~2022-10-20~3454~6.18
+751~Preparado de carne picada vacuno~2~12.36~12878660~2022-10-20~3454~6.18
+752~Ensalada mezcla brotes tiernos maxi~1~1.75~12878660~2022-10-20~69810~1.75
+753~Huevos grandes L~2~7.9~12878660~2022-10-20~31003~3.95
+754~Huevos grandes L~2~7.9~12878660~2022-10-20~31003~3.95
+755~Huevos grandes L~2~7.9~12878660~2022-10-20~31003~3.95
+756~Espárrago verde grueso~2~5.98~12878660~2022-10-20~69643~2.99
+757~Banana~8~2.23~12878660~2022-10-20~3824~0.27875
+758~Pechugas enteras de pollo~1~4.49~12878660~2022-10-20~3682~4.49
+759~Pechugas enteras de pollo~1~4.49~12878660~2022-10-20~3682~4.49
+760~Pechugas enteras de pollo~1~3.36~12878660~2022-10-20~3682~3.36
+761~Pechugas enteras de pollo~1~3.36~12878660~2022-10-20~3682~3.36
+762~Pechugas enteras de pollo~1~4.1~12878660~2022-10-20~3682~4.1
+763~Pechugas enteras de pollo~1~4.1~12878660~2022-10-20~3682~4.1
+764~Medallones pechuga de pollo marinado~1~4.75~12878660~2022-10-20~2831~4.75
+765~Medallones pechuga de pollo marinado~1~3.82~12878660~2022-10-20~2831~3.82
+766~Aguacates~1~2.52~12878660~2022-10-20~3858~2.52
+767~Champiñón laminado limpio~1~1.71~12878660~2022-10-20~69519~1.71
+768~Pollo asado Hacendado~1~6.55~12878660~2022-10-20~13706~6.55
+769~Pollo asado Hacendado~1~6.8~12878660~2022-10-20~13706~6.8
+770~Tacos de vacuno añojo para guisar~1~6.16~12878660~2022-10-20~2807~6.16
+771~Tacos de vacuno añojo para guisar~1~5.47~12878660~2022-10-20~2807~5.47
+772~Calabaza cacahuete cortada a trozos~1~1.6~12878660~2022-10-20~3527~1.6
+773~Queso para ensaladas Hacendado en dados~1~1.9~12838037~2022-10-13~51065~1.9
+774~Salsa césar Hacendado~1~1.25~12838037~2022-10-13~17366~1.25
+775~Muesli Crunchy Hacendado con frutos secos~1~1.75~12838037~2022-10-13~9357~1.75
+776~Preparado de carne picada vacuno~1~6.18~12838037~2022-10-13~3454~6.18
+777~Preparado de carne picada vacuno~1~6.18~12838037~2022-10-13~3454~6.18
+778~Pan de molde 100% integral Hacendado~1~0.95~12838037~2022-10-13~82328~0.95
+779~Risotto de champiñones Hacendado ultracongelados~1~1.45~12838037~2022-10-13~61358~1.45
+780~Leche desnatada sin lactosa Hacendado~2~1.82~12838037~2022-10-13~10731~0.91
+781~Leche desnatada sin lactosa Hacendado~2~1.82~12838037~2022-10-13~10731~0.91
+782~Helado almendrado Hacendado~1~2.2~12838037~2022-10-13~64000~2.2
+783~Bebida de almendras zero Hacendado~1~1.4~12838037~2022-10-13~23926~1.4
+784~Plátano macho~3~2.32~12838037~2022-10-13~3132~0.7733333333333333
+785~Gel de baño dermoprotector Sanex piel normal~1~3.5~12838037~2022-10-13~67906~3.5
+786~Jabón de manos Beauty Cream Bar Dove pastilla~1~2.6~12838037~2022-10-13~67908~2.6
+787~Edulcorante en sobres stevia Hacendado~1~2.0~12838037~2022-10-13~19825~2.0
+788~Recarga jabón de manos dermoprotector Deliplus líquido~1~1.15~12838037~2022-10-13~22905~1.15
+789~Detergente ropa All in 1 Ariel en cápsulas~1~7.75~12838037~2022-10-13~16806~7.75
+790~Champú Anticaída Deliplus~1~1.95~12838037~2022-10-13~44356~1.95
+791~Vinagre de Limpieza Bosque Verde concentrado~1~0.8~12838037~2022-10-13~49402~0.8
+792~Remolacha cocida y pelada~2~1.6~12838037~2022-10-13~69523~0.8
+793~Hummus de garbanzos Hacendado receta clásica~1~1.2~12838037~2022-10-13~80858~1.2
+794~Huevos grandes L~2~7.9~12838037~2022-10-13~31003~3.95
+795~Huevos grandes L~2~7.9~12838037~2022-10-13~31003~3.95
+796~Huevos grandes L~2~7.9~12838037~2022-10-13~31003~3.95
+797~Banana~6~1.11~12838037~2022-10-13~3824~0.18500000000000003
+798~Tomate pera~2~0.35~12838037~2022-10-13~69912~0.175
+799~Espárrago verde grueso~2~5.98~12838037~2022-10-13~69643~2.99
+800~Ensalada mezcla brotes tiernos maxi~1~1.75~12838037~2022-10-13~69810~1.75
+801~Pechugas enteras de pollo~1~4.53~12838037~2022-10-13~3682~4.53
+802~Pechugas enteras de pollo~1~4.53~12838037~2022-10-13~3682~4.53
+803~Pechugas enteras de pollo~1~4.54~12838037~2022-10-13~3682~4.54
+804~Pechugas enteras de pollo~1~4.54~12838037~2022-10-13~3682~4.54
+805~Medallones preparado de solomillo cerdo provenzal~1~3.51~12838037~2022-10-13~4152~3.51
+806~Medallones preparado de solomillo cerdo provenzal~1~3.63~12838037~2022-10-13~4152~3.63
+807~Aguacates~1~2.61~12838037~2022-10-13~3858~2.61
+808~Jengibre~1~1.66~12838037~2022-10-13~69289~1.66
+809~Champiñón laminado limpio~1~1.5~12838037~2022-10-13~69519~1.5
+810~Medallones pechuga de pollo marinado~1~4.02~12838037~2022-10-13~2831~4.02
+811~Medallones pechuga de pollo marinado~1~3.55~12838037~2022-10-13~2831~3.55
+812~Tacos de pavo al ajillo~1~3.58~12838037~2022-10-13~3443~3.58
+813~Barrita con proteínas Enervit Sport sabor chocolate negro~1~4.9~12793662~2022-10-06~23670~4.9
+814~Spaghetti Hacendado~1~1.2~12793662~2022-10-06~6331~1.2
+815~Spaghetti Hacendado~1~1.2~12793662~2022-10-06~6331~1.2
+816~Pan de hamburguesa Brioche Hacendado~1~0.85~12793662~2022-10-06~1811~0.85
+817~Pan de molde 100% integral Hacendado~1~0.95~12793662~2022-10-06~82328~0.95
+818~Papel higiénico Doble Rollo Bosque Verde~1~4.75~12793662~2022-10-06~47818~4.75
+819~Papel higiénico Doble Rollo Bosque Verde~1~4.75~12793662~2022-10-06~47819~4.75
+820~Quiche verduras Hacendado con calabacín y queso de cabra~1~2.2~12793662~2022-10-06~63532~2.2
+821~Chili con carne Hacendado~1~2.6~12793662~2022-10-06~23137~2.6
+822~Plátano macho~3~2.03~12793662~2022-10-06~3132~0.6766666666666666
+823~Patatas~1~4.4~12793662~2022-10-06~69166~4.4
+824~Patatas~1~4.4~12793662~2022-10-06~69099~4.4
+825~Judía verde redonda~1~2.15~12793662~2022-10-06~69878~2.15
+826~Espárrago verde grueso~1~2.99~12793662~2022-10-06~69643~2.99
+827~Pimientos tricolor rojo, amarillo y verde~1~1.64~12793662~2022-10-06~69491~1.64
+828~Palitos de zanahoria~1~1.6~12793662~2022-10-06~69877~1.6
+829~Tomate pera~4~0.77~12793662~2022-10-06~69912~0.1925
+830~Ensalada mezcla brotes tiernos maxi~1~1.75~12793662~2022-10-06~69810~1.75
+831~Banana~6~1.63~12793662~2022-10-06~3824~0.27166666666666667
+832~Manzana Royal Gala~2~0.77~12793662~2022-10-06~3175~0.385
+833~Preparado de carne picada vacuno~1~6.18~12793662~2022-10-06~3454~6.18
+834~Preparado de carne picada vacuno~1~6.18~12793662~2022-10-06~3454~6.18
+835~Burger de vacuno~1~4.18~12793662~2022-10-06~2873~4.18
+836~Huevos grandes L~1~3.95~12793662~2022-10-06~31003~3.95
+837~Huevos grandes L~1~3.95~12793662~2022-10-06~31003~3.95
+838~Huevos grandes L~1~3.95~12793662~2022-10-06~31003~3.95
+839~Fajitas pollo y verduras~1~3.99~12793662~2022-10-06~4284~3.99
+840~Refresco Coca-Cola Zero azúcar~1~9.36~12793662~2022-10-06~27426~9.36
+841~Refresco Coca-Cola Zero azúcar~1~9.36~12793662~2022-10-06~27426~9.36
+842~Refresco Coca-Cola Zero azúcar~1~9.36~12793662~2022-10-06~27426~9.36
+843~Refresco Coca-Cola Zero azúcar~1~9.36~12793662~2022-10-06~27426~9.36
+844~Refresco Coca-Cola Zero azúcar~1~9.36~12793662~2022-10-06~27426~9.36
+845~Refresco Coca-Cola Zero azúcar~1~9.36~12793662~2022-10-06~27426~9.36
+846~Refresco Coca-Cola Zero azúcar~1~9.36~12793662~2022-10-06~27426~9.36
+847~Aceite de oliva virgen extra Hacendado~1~2.15~12793662~2022-10-06~4718~2.15
+848~Aceite de oliva virgen extra Hacendado~1~2.15~12793662~2022-10-06~4718~2.15
+849~Aceite de oliva virgen extra Hacendado~1~2.15~12793662~2022-10-06~4718~2.15
+850~Filete de salmón rosado salvaje con piel Hacendado ultracongelado~1~2.76~12793662~2022-10-06~24350~2.76
+851~Queso de oveja Entrepinares lonchas~1~2.39~12793662~2022-10-06~50151~2.39
+852~Filetes pechuga de pollo corte fino~1~4.51~12793662~2022-10-06~3400~4.51
+853~Filetes pechuga de pollo corte fino~1~4.19~12793662~2022-10-06~3400~4.19
+854~Pechugas enteras de pollo~1~4.32~12793662~2022-10-06~3682~4.32
+855~Pechugas enteras de pollo~1~4.32~12793662~2022-10-06~3682~4.32
+856~Pechugas enteras de pollo~1~4.4~12793662~2022-10-06~3682~4.4
+857~Pechugas enteras de pollo~1~4.4~12793662~2022-10-06~3682~4.4
+858~Medallones pechuga de pollo marinado~1~4.32~12793662~2022-10-06~2831~4.32
+859~Aguacates~1~2.9~12793662~2022-10-06~3858~2.9
+860~Aguacates~1~3.03~12793662~2022-10-06~3858~3.03
