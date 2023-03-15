@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+**/.DS_Store
+**/*.ipynb_checkpoints/
+**/__pycache__
+.vscode
+
+/drafts
+/mercadona/order_history/old_files
