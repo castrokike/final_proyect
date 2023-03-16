@@ -255,4 +255,5 @@ def assign_product_codes(cat_codes, orders):
     #order_history['product_code'] = order_history['product_code'].fillna(order_history['product_code'].astype(str))
     order_history['price_per_unit'] = order_history['price'] / order_history['units']
     order_history["product_code"] = order_history["product_code"].replace(code_replacement)
+    order_history = order_history.drop_duplicates()
     return order_history
