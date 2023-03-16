@@ -31,6 +31,18 @@ months = {
 }
 
 def convert_date_string(date_string):
+
+    """
+    Convert a date string from the format "Día de mes de Año" (e.g., "25 de enero de 2022") 
+    to a pandas datetime object.
+    
+    Args:
+        date_string: str, A date string in the format "Día de mes de Año"
+    
+    Returns:
+        A pandas datetime object representing the input date.
+    """
+
     # Extract the day and month name from the string using string manipulation functions
     day = int(date_string.split()[1])
     month_name = date_string.split()[3]
@@ -45,49 +57,61 @@ def convert_date_string(date_string):
     return pd.to_datetime(f"{year}-{month}-{day}")
 
 def get_purchase_history(zip, mercadona_user, mercadona_password, headless=True):
+
     """
+    Retrieves the purchase history of a user from Mercadona's online store.
+
+    Args:
+        zip (str): Postal code of the user's address.
+        mercadona_user (str): Email address of the user's Mercadona account.
+        mercadona_password (str): Password of the user's Mercadona account.
+        headless (bool): Whether to run the web driver in headless mode (default True).
+
+    Returns:
+        pandas.DataFrame: Dataframe containing the purchase history of the user.
     """
-    # create a ChromeOptions object
+
+    # Create a ChromeOptions object
     options = Options()
 
-    # add the headless argument if passed
+    # Add the headless argument if passed
     if headless:
         options.add_argument('--headless')
 
-    # specify the path to your web driver
+    # Specify the path to your web driver
     driver = webdriver.Chrome(options=options)
 
-    # navigate to the login page
+    # Navigate to the login page
     driver.get('https://www.mercadona.es/')
 
-    # enter the postal code and submit it
+    # Enter the postal code and submit it
     postal_code = driver.find_element(By.CSS_SELECTOR, 'input[aria-label="Código postal"]').send_keys(zip)
     submit_button = driver.find_element(By.CSS_SELECTOR, 'input.postal-code-form__button').click()
 
     # Accept cookies
     accept_button = driver.find_element(By.XPATH, "//button[contains(text(),'Aceptar todas')]").click()
 
-   # wait for the page to load
+    # Wait for the page to load
     driver.implicitly_wait(10)
 
-    # click the user dropdown and click the "Identifícate" button
+    # Click the user dropdown and click the "Identifícate" button
     drop_down = driver.find_element(By.CSS_SELECTOR, 'button[class="drop-down__trigger"]')
     drop_down.click()
     identificate = driver.find_element(By.CSS_SELECTOR,'a[href="/?authenticate-user="]').click()
    
-    # enter the email address
+    # Enter the email address
     email = driver.find_element(By.CSS_SELECTOR, 'input[name="email"]')
     email.send_keys(mercadona_user)
 
-    # click the "Siguiente" button
+    # Click the "Siguiente" button
     next_button = driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]')
     next_button.click()
 
-    # enter the password
+    # Enter the password
     password = driver.find_element(By.CSS_SELECTOR, 'input[name="password"]')
     password.send_keys(mercadona_password)
 
-    # click the "Entrar" button
+    # Click the "Entrar" button
     entrar_button = driver.find_element(By.CSS_SELECTOR, 'button[data-test="do-login"]')
     entrar_button.click()
 
@@ -114,74 +138,125 @@ def get_purchase_history(zip, mercadona_user, mercadona_password, headless=True)
         )
     )
     
+    # Create an empty list to store the order numbers
     list_of_orders = []
+
+    # Extract the order numbers from order_nums and append them to list_of_orders
     for pedido in order_nums:
         list_of_orders.append(pedido.text.split(' ')[1])
 
+    # Create an empty dataframe to store the details of every product in every order
     pedidos_to_return = pd.DataFrame({})
 
+    # Loop over the order numbers and extract the order details
     for order_text in list_of_orders:
+
+        # Visit the order details page
         driver.get(f"https://tienda.mercadona.es/user-area/orders/{order_text}?products")
 
+        # Initialize an empty dictionary that will later be turned into a DataFrame. This dictionary will contain the information every product for an order
         order_details = {}
-        # Get all products
+        
+        # Get all products in the order
         products = WebDriverWait(driver, 10).until(
             EC.visibility_of_all_elements_located(
                 (By.CSS_SELECTOR, 'p[class="order-product-cell__name subhead1-r"]')
             )
         )
+
+        # Extract the text from each product element and store them in a list
         products_list = []
         for product in products:
             products_list.append(product.text)
+        
+        # Add the products list to the order details dictionary
         order_details["product"] = products_list
 
-        # Get all units
+        # Get all units in the order
         units = WebDriverWait(driver, 10).until(
             EC.visibility_of_all_elements_located(
                 (By.CSS_SELECTOR, 'span[class="order-product-cell__prepared-units subhead1-r"]')
             )
         )
+
+        # Extract the number of units from each unit element and store them in a list
         units_list = []
         for unit in units:
             units_list.append(int(unit.text.split(' ')[0]))
+        
+        # Add the units list to the order details dictionary
         order_details["units"] = units_list
         
-        # Get all prices
+        # Get all prices in the order
         prices = WebDriverWait(driver, 10).until(
             EC.visibility_of_all_elements_located(
                 (By.CSS_SELECTOR, 'p[class="order-product-cell__price subhead1-r"]')
             )
         )
+
+        # Extract the price from each price element and store them in a list
         prices_list = []
         for price in prices:
             prices_list.append(float(price.text.split(' ')[0].replace(',','.')))
+        
+        # Add the prices list to the order details dictionary
         order_details["price"] = prices_list
 
+        # Convert the order details dictionary to a dataframe and add the order number to each row
         order_details_df = pd.DataFrame(order_details)
         order_details_df = order_details_df.assign(order_number=order_text)
 
-
+        # Get the delivery date and add it to the dataframe
         delivery = WebDriverWait(driver, 10).until(
             EC.visibility_of_all_elements_located(
                 (By.CSS_SELECTOR, 'span[class="body1-b"]')
             )
         )
         order_details_df = order_details_df.assign(fecha=delivery[0].text)
+
+        # Convert the text date to a Pandas DateTime element using our previous function.
         order_details_df["fecha"] = order_details_df["fecha"].apply(convert_date_string)
 
+        # Add the order details dataframe to the overall dataframe
         pedidos_to_return = pd.concat([pedidos_to_return,order_details_df],ignore_index=True)
 
     print("Success!")
     return pedidos_to_return
 
 def get_categories_from_scraping(csv):
+
+    """
+    Extracts product categories from a CSV file and returns a dataframe 
+    with the product name, category, subcategory and code. 
+
+    Args:
+        csv (str): the path to the CSV file containing the scraped data
+
+    Returns:
+        pandas.DataFrame: a cleaned dataframe with the product categories
+    """
+
+    # Read the CSV file into a dataframe
     cat_codes = pd.read_csv(csv, sep='~')
+
+    # Convert the 'product_code' column to integer data type
     cat_codes['product_code'] = cat_codes['product_code'].astype(int)
+
+    # Remove the ' >' from the end of the 'product_category' column
     cat_codes["product_category"] = cat_codes["product_category"].str.replace(" >","")
+
+    # Remove '|' from the 'product_price_per_unit' column
     cat_codes["product_price_per_unit"] = cat_codes["product_price_per_unit"].str.replace("|","")
+
+    # Remove '/' and '.' from the 'product_unit' column
     cat_codes["product_unit"] = cat_codes["product_unit"].str.replace("/","").str.replace(".","")
+
+    # Return a cleaned dataframe with the 'product', 'product_category', 'product_subcategory', and 'product_code' columns and remove any duplicates
     return cat_codes[['product','product_category', 'product_subcategory', 'product_code']].drop_duplicates()
 
+
+
+# The following dictionaries are used to replace product codes based on my behaviour. If this were to be scaled up these replacement would need to be done in another way.
 product_dict = {"Ensalada mezcla brotes tiernos maxi" : 69810,
 "Bebida de almendras zero Hacendado" : 23926,
 "Papel higiénico húmedo WC Bosque Verde" : 47291,
@@ -235,12 +310,39 @@ code_replacement = {
 }
 
 def assign_product_codes(cat_codes, orders):
+
+    """
+    This function assigns product codes to a dataframe of orders based on a separate dataframe containing category codes.
+    
+    Parameters:
+        cat_codes (pandas.DataFrame): A dataframe containing category codes for products.
+        orders (pandas.DataFrame): A dataframe containing orders for products.
+    
+    Returns:
+        pandas.DataFrame: A dataframe of orders with product codes assigned.
+    """
+
+    # Merge orders and category codes dataframes
     order_history = pd.merge(orders, cat_codes[["product", "product_code"]],left_on="product", right_on="product", how="left")
+    
+    # Fill missing product codes with product_dict
     order_history["product_code"] = order_history["product_code"].fillna(order_history["product"].map(product_dict))
+    
+    # Convert product codes to integers
     order_history['product_code'] = order_history['product_code'].astype(int)
+
+    # The following lines are an alternate way to deal with transforming the product code to int.
     #order_history['product_code'] = pd.to_numeric(order_history['product_code'], errors='coerce')
     #order_history['product_code'] = order_history['product_code'].fillna(order_history['product_code'].astype(str))
+    
+    # Calculate price per unit for each product
     order_history['price_per_unit'] = order_history['price'] / order_history['units']
+
+    # Replace product codes with code_replacement
     order_history["product_code"] = order_history["product_code"].replace(code_replacement)
+
+    # Drop duplicate rows
     order_history = order_history.drop_duplicates()
+
+    # Return dataframe with product codes assigned
     return order_history
