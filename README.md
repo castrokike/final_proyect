@@ -34,3 +34,14 @@ This jupyter notebook will create a CSV file containing the user's order history
 
 ### Uploading to SQL and process
 To upload all the collected information to SQL to generate the price variations, open [uploading_to_sql.ipynb](sql/uploading_to_sql.ipynb) and follow the written description and run code cells. This will upload both sets of data (order history and scraped product information) to SQL and then query both tables to generate the percentage of price increase per product.
+
+## Visualizations
+All of the visualizations for this project were created using Tableau. You can access the complete analysis and visualizations in a single public story [here](https://public.tableau.com/app/profile/andr.s1823/viz/Mercadonapriceanalysis/Mercadonapriceanalysis?publish=yes).
+
+### The three visualizations included in the Tableau story are:
+
+- Total Price per Order in Order History: This visualization shows the total price of each order made by the user, along with the date of the order.
+
+- Product Price Changes Over Time: This visualization shows the price changes for the products that the user has ordered over time, as well as the date of each order.
+
+- Bar Chart of Price Variations: This visualization shows the percentage of price variation for each product in the scraped product information, sorted by greatest to least.
