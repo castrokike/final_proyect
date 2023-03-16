@@ -16,13 +16,7 @@ import time
 # Other imports
 import re as re
 import pandas as pd
-import os
 import sys
-import numpy as np
-
-import pymysql
-import sqlalchemy as alch
-from getpass import getpass
 
 from dotenv import load_dotenv
 load_dotenv()

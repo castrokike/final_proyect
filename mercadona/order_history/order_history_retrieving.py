@@ -2,27 +2,14 @@
 import chromedriver_autoinstaller
 chromedriver_autoinstaller.install()
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
-# Time imports
-import random
-import datetime
-import time
-
 # Other imports
 import re as re
 import pandas as pd
-import os
-import sys
-import numpy as np
-
-import pymysql
-import sqlalchemy as alch
-from getpass import getpass
 
 from dotenv import load_dotenv
 load_dotenv()
