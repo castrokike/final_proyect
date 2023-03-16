@@ -21,27 +21,30 @@ import sys
 from dotenv import load_dotenv
 load_dotenv()
 
+
+
 # Functions
 
 def get_categories(zip, headless=False):
+
     """
-    Get a list of all the categories available in Mercadona website based on the input postal code.
+    Scrape the Mercadona website to get a list of all the categories available based on the input postal code.
 
     Args:
-    zip (str): The postal code used to find the nearest Mercadona store.
+        zip (str): The postal code used to find the nearest Mercadona store.
+        headless (bool, optional): Whether to run the browser in headless mode, which means that the browser will not display a user interface. Defaults to False.
 
     Returns:
-    list: A list of strings containing the name of each category available in the website.
+        list: A list of strings containing the name of each category available in the website.
 
     Raises:
-    TimeoutException: If the browser is unable to find any required element in the page within the allotted time.
-    NoSuchElementException: If the browser is unable to find the element that matches the specified selector.
-    ElementClickInterceptedException: If the browser is unable to click on an element because another element is blocking it.
+        TimeoutException: If the browser is unable to find any required element in the page within the allotted time.
+        NoSuchElementException: If the browser is unable to find the element that matches the specified selector.
+        ElementClickInterceptedException: If the browser is unable to click on an element because another element is blocking it.
     """
 
     # Set options for headless (invisible) browsing
     options = Options()
-    # add the headless argument if passed
     if headless:
         options.add_argument('--headless')
 
@@ -77,15 +80,22 @@ def get_categories(zip, headless=False):
     return ret_list
 
 def get_subcategories(zip, category, headless=True):
+    
     """
     Retrieve the subcategories of a given category in the Mercadona website for a given postal code.
 
     Args:
-        zip (str): The postal code of the location to browse.
+        zip (str): The postal code of the location to browse. This is used to find the nearest Mercadona store.
         category (str): The name of the category to retrieve subcategories for.
+        headless (bool, optional): If True, the function will run the web driver in headless mode, which means that the browser will not display a user interface. Defaults to True.
 
     Returns:
         list: A list containing a string with the name of every subcategory of the given category.
+    
+    Raises:
+        TimeoutException: If the browser is unable to find any required element in the page within the allotted time.
+        NoSuchElementException: If the browser is unable to find the element that matches the specified selector.
+        ElementClickInterceptedException: If the browser is unable to click on an element because another element is blocking it.
     """
     
     # Set options for headless (invisible) browsing
@@ -125,21 +135,23 @@ def get_subcategories(zip, category, headless=True):
     return ret_list
 
 def get_product_info(zip, category, subcategory, wait=0, headless=False):
+
     """
-    Get product information from the Mercadona website for a given zip code, category and subcategory.
+    Scrape product information from Mercadona website based on zip code, category, and subcategory.
     Returns a pandas DataFrame with a row per each product scraped and the total amount of products scraped.
     The product information includes the product name, type, volume, price per unit, price, unit, category, subcategory, URL, product code (from URL), and the collected timestamp. 
 
     Args:
-        zip (str): The zip code for the Mercadona website to search in.
+        zip (str): The zip code for the Mercadona website to search in, it should be a string containing 5 digits.
         category (str): The category of products to search for.
         subcategory (str): The subcategory of products to search for.
-        headless (bool, optional): Whether to run the Chrome webdriver in headless mode. Defaults to True.
+        headless (bool, optional): Whether to run the Chrome webdriver in headless mode, which means the browser window will not be visible. Defaults to True.
         
     Returns:
-        ret_df: A pandas DataFrame with a row per each product scraped.
-        product_count: An int representing the amount of products scraped.
+        ret_df (pandas.DataFrame): A DataFrame with the following columns: 'product_name', 'product_type', 'volume', 'price_per_unit', 'price', 'unit', 'category', 'subcategory', 'url', 'product_code', 'timestamp'. Each row corresponds to a product scraped from the Mercadona website.
+        product_count (int): The number of products scraped.
     """
+
     # create a ChromeOptions object
     options = Options()
 
