@@ -1,5 +1,6 @@
-# final_project
-IronHack Final Project
+# Mercadona Price Tracker
+### IronHack Final Project
+## Andrés Castro
 
 
 https://user-images.githubusercontent.com/62567171/225653414-f38e57ec-38df-484a-982d-3c37554cc137.mov
