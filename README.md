@@ -18,8 +18,10 @@ The Mercadona Price Tracker is a Python-based web scraper that allows users to t
 ### Scraping Products
 
 To scrape all the products from the Mercadona website, open [label](mercadona/scraping/mercadona_scraper.ipynb) and follow the written description and run code cells. Heres a preview of the script running and fetching categories and subcategories:
+
 https://user-images.githubusercontent.com/62567171/225653414-f38e57ec-38df-484a-982d-3c37554cc137.mov
 
 With the same command, after fetching the full list of categories and subcategories, the scrapper will start fetching all the information for every product.
+
 https://user-images.githubusercontent.com/62567171/225653723-4e04dc71-e00b-41f1-9659-4dc28eb7fd31.mov
 
