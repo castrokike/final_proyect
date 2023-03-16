@@ -42,6 +42,12 @@ All of the visualizations for this project were created using Tableau. You can a
 
 - Total Price per Order in Order History: This visualization shows the total price of each order made by the user, along with the date of the order.
 
+![Bar chart showing total Price per Order in Order History](media/1.png)
+
 - Product Price Changes Over Time: This visualization shows the price changes for the products that the user has ordered over time, as well as the date of each order.
 
+![Line chart showing Product Price Changes Over Time](media/2.png)
+
 - Bar Chart of Price Variations: This visualization shows the percentage of price variation for each product in the scraped product information, sorted by greatest to least.
+
+![Bar Chart of Price Variations](media/3.png)
